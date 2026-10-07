@@ -1,0 +1,609 @@
+{
+  "version": "6.3.289",
+  "fixtures": [
+    {
+      "id": "core-arabic-mixed",
+      "milliseconds": 180.13,
+      "pages": [
+        {
+          "page": 1,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "موجز وافٍ  التحديات  تتسم األراضي في مختلف أنحاء الشرق األوسط وشمال أفريقيا بالندرة والقيمة الهائلة بسبب القيود الجغرافية والمناخية القوية  . وتدل الزيادة المتوقعة في الطلب على األراضي والناتجة عن ( % فقط مزروعة 3.5 من األراضي في المنطقة قاحلة و   %84 )  االتجاهات الديموغرافية، مقترنة بتقلص المعروض من األراضي نتيجة العوامل المناخية وعوامل الحوكمة، على أزمة تلوح في  األفق في وقت تواجه فيه المنطقة أيضا ً تحوال ً اجتماعيا ً وسياسيا ً هائالً. وقد اُسْتُنْفِدْت تقريبا ً احتياطيات جميع األراضي الصالحة  للزراعة، والمجال المتاح لتوسيع األراضي المحصولية في ظل ظروف االعتماد على األمطار هو أدنى مجال على مستوى العالم،  % على مستوى العالم. وكذلك تفرض اتجاهات التوسع 150   % فقط من المساحة المزروعة حالياً، مقابل 17 - 9   إذ يقتصر على  ، من 2050   بحلول عام   ( مليون نسمة   190 )   % 60   العمراني ضغوطا ً على األراضي. فمع توقعات زيادة عدد سكان الحضر بنسبة  % 50   المرجح في ظل الظروف الحالية أن يزداد إجمالي المساحة الحضرية المبنية في منطقة الشرق األوسط وشمال أفريقيا بنسبة  . ومع ذلك، ال تزال األراضي تستخدم بأساليب غير فعالة وغير منصفة وغير مستدامة. ( مليون هكتار إضافي   1.3 )   على األقل  وفي الوقت نفسه، تواجه الشركات واألفراد معا ً عوائق كبيرة في الحصول على األراضي، مع ما يترتب على ذلك من آثار  % من الشركات في قطاعي الصناعات التحويلية والخدمات 23   سلبية في جميع أنحاء منطقة الشرق األوسط وشمال أفريقيا. وترى  أن إمكانية الحصول على األراضي تمثل قيدا ً رئيسيا ً أمام عملياتها التجارية. وتُستغل االرتباطات السياسية في الحصول على  األراضي، وهو ما قد يؤدي إلى سوء تخصيص األراضي للشركات التي تتمتع بعالقات سياسية نافذة بدال ً من الشركات األكثر  ضعف ما هو   ( % 5.9 )   إنتاجية. وفي منطقة الشرق األوسط وشمال أفريقيا، يوجد عدد من الشركات ذات االرتباطات السياسية  ، مع معاناة عدد قليل من البلدان من مستويات عالية جدا ً من االرتباطات ( % 2.4 )   موجود في منطقة أوروبا وآسيا الوسطى  . ( % 28   تصل إلى )   السياسية لدى بعض الشركات  وتؤدي العوائق التي تحول دون الحصول على األراضي إلى الحد من الكفاءة االقتصادية داخل القطاعات وفيما بينها، وتديم  عدم المساواة، ال سيما بين النساء والفئات األولى بالرعاية. ولدى النساء في الشرق األوسط وشمال أفريقيا أدنى معدل لملكية  الممتلكات الزراعية في العالم، ويزداد احتمال خوفهن من فقدان ممتلكاتهن مرتين إلى ثالث مرات في حالة وفاة الزوج أو الطالق.  ال سيما في المناطق )   وال تدعم المؤسسات الرسمية وغير الرسمية واألعراف والممارسات االجتماعية غير المتوازنة بين الجنسين  حقوق المرأة بشكل كاف. والواقع أن النساء يواجهن عادة ضغوطا اجتماعية للتخلي   ( الريفية وفي مسائل الميراث وإدارة األصول  األردنية، على مدى العقد الماضي يتخلى ما يصل إلى ثلث  الشرعية   \"طواعية\" عن ميراثهن من الممتلكات – وفقا ً لبيانات المحاكم  الوارثات عن حقوقهن بالكامل في الميراث كل عام. ويواجه الالجئون أيضا ً صعوبة في الحصول على األراضي، حيث يتسبب  الصراع في الشرق األوسط وشمال أفريقيا في نزوح ماليين األشخاص الذين يفتقرون إلى حقوق السكن واألراضي والملكية في  بلدان المنشأ وبلدان المقصد على حد سواء. وفضال ً عن ذلك، تتفاقم أزمة ندرة األراضي بسبب الصراعات، وهي عوامل إضافية  تسهم في تدهور األراضي. وفي الواقع، تظهر مقارنة بين مناطق األراضي المحصولية بالقرب من حدود تركيا وسوريا أن  . 2017   % من أراضيه المحصولية بحلول عام 7   الصراع تسبب في خسارة الجانب السوري  ويؤدي سوء حوكمة األراضي إلى تفاقم ندرتها وصعوبة الحصول عليها. وفي منطقة الشرق األوسط وشمال أفريقيا، تتسم  أنظمة الحكم وما يرتبط بها من إصالحات على مر التاريخ.   أنظمة حوكمة األراضي بالتعقيد ألنها تعكس تراكم التغيرات في  وكثيرا ً ما تكون األطر القانونية متقادمة وال تساير الواقع أو احتياجات االقتصاد الحديث. وفي جميع البلدان باستثناء البلدان الغنية  في المنطقة واألردن، ال يزال ضعف تسجيل الممتلكات يمثل مشكلة رئيسية، مما يعكس األوضاع المعقدة لحيازة األراضي،  ً وإجراءات التسجيل المرهقة، وانخفاض إدراك منافع التسجيل. وفضال ً عن ذلك، غالبا ً ما تُنفذ سياسات حوكمة األراضي تنفيذا  سيئا ً بسبب التجزؤ المؤسسي على المستوى المركزي وضعف موثوقية البنية التحتية إلدارة األراضي، وهو ما يعقد تبادل  10   المعلومات والتنسيق فيما بين مؤسسات الدولة المركزية. وليس من غير المألوف أن يكون لدى بلدان المنطقة ما يصل إلى  مؤسسات تتنافس على مسؤوليات إدارة أراضي الدولة. وأخيراً، أسهم ارتفاع مستويات ملكية األراضي العامة في العديد من بلدان  المنطقة، وقوة سيطرة الدولة على قطاع األراضي، واتخاذ القرارات المركزية المبهمة بشأن تخصيص األراضي خارج نطاق  مبادئ التخصيص السوقي، في عدم كفاءة استخدام األراضي وتسهيل سيطرة النخبة والمحسوبية. ووفقا للتقارير القُطْرية لمؤشر  xvii",
+          "items": 123,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "",
+          "items": 0,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "core-arabic-native",
+      "milliseconds": 60.62,
+      "pages": [
+        {
+          "page": 1,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "موجز وافٍ  التحديات  تتسم األراضي في مختلف أنحاء الشرق األوسط وشمال أفريقيا بالندرة والقيمة الهائلة بسبب القيود الجغرافية والمناخية القوية  . وتدل الزيادة المتوقعة في الطلب على األراضي والناتجة عن ( % فقط مزروعة 3.5 من األراضي في المنطقة قاحلة و   %84 )  االتجاهات الديموغرافية، مقترنة بتقلص المعروض من األراضي نتيجة العوامل المناخية وعوامل الحوكمة، على أزمة تلوح في  األفق في وقت تواجه فيه المنطقة أيضا ً تحوال ً اجتماعيا ً وسياسيا ً هائالً. وقد اُسْتُنْفِدْت تقريبا ً احتياطيات جميع األراضي الصالحة  للزراعة، والمجال المتاح لتوسيع األراضي المحصولية في ظل ظروف االعتماد على األمطار هو أدنى مجال على مستوى العالم،  % على مستوى العالم. وكذلك تفرض اتجاهات التوسع 150   % فقط من المساحة المزروعة حالياً، مقابل 17 - 9   إذ يقتصر على  ، من 2050   بحلول عام   ( مليون نسمة   190 )   % 60   العمراني ضغوطا ً على األراضي. فمع توقعات زيادة عدد سكان الحضر بنسبة  % 50   المرجح في ظل الظروف الحالية أن يزداد إجمالي المساحة الحضرية المبنية في منطقة الشرق األوسط وشمال أفريقيا بنسبة  . ومع ذلك، ال تزال األراضي تستخدم بأساليب غير فعالة وغير منصفة وغير مستدامة. ( مليون هكتار إضافي   1.3 )   على األقل  وفي الوقت نفسه، تواجه الشركات واألفراد معا ً عوائق كبيرة في الحصول على األراضي، مع ما يترتب على ذلك من آثار  % من الشركات في قطاعي الصناعات التحويلية والخدمات 23   سلبية في جميع أنحاء منطقة الشرق األوسط وشمال أفريقيا. وترى  أن إمكانية الحصول على األراضي تمثل قيدا ً رئيسيا ً أمام عملياتها التجارية. وتُستغل االرتباطات السياسية في الحصول على  األراضي، وهو ما قد يؤدي إلى سوء تخصيص األراضي للشركات التي تتمتع بعالقات سياسية نافذة بدال ً من الشركات األكثر  ضعف ما هو   ( % 5.9 )   إنتاجية. وفي منطقة الشرق األوسط وشمال أفريقيا، يوجد عدد من الشركات ذات االرتباطات السياسية  ، مع معاناة عدد قليل من البلدان من مستويات عالية جدا ً من االرتباطات ( % 2.4 )   موجود في منطقة أوروبا وآسيا الوسطى  . ( % 28   تصل إلى )   السياسية لدى بعض الشركات  وتؤدي العوائق التي تحول دون الحصول على األراضي إلى الحد من الكفاءة االقتصادية داخل القطاعات وفيما بينها، وتديم  عدم المساواة، ال سيما بين النساء والفئات األولى بالرعاية. ولدى النساء في الشرق األوسط وشمال أفريقيا أدنى معدل لملكية  الممتلكات الزراعية في العالم، ويزداد احتمال خوفهن من فقدان ممتلكاتهن مرتين إلى ثالث مرات في حالة وفاة الزوج أو الطالق.  ال سيما في المناطق )   وال تدعم المؤسسات الرسمية وغير الرسمية واألعراف والممارسات االجتماعية غير المتوازنة بين الجنسين  حقوق المرأة بشكل كاف. والواقع أن النساء يواجهن عادة ضغوطا اجتماعية للتخلي   ( الريفية وفي مسائل الميراث وإدارة األصول  األردنية، على مدى العقد الماضي يتخلى ما يصل إلى ثلث  الشرعية   \"طواعية\" عن ميراثهن من الممتلكات – وفقا ً لبيانات المحاكم  الوارثات عن حقوقهن بالكامل في الميراث كل عام. ويواجه الالجئون أيضا ً صعوبة في الحصول على األراضي، حيث يتسبب  الصراع في الشرق األوسط وشمال أفريقيا في نزوح ماليين األشخاص الذين يفتقرون إلى حقوق السكن واألراضي والملكية في  بلدان المنشأ وبلدان المقصد على حد سواء. وفضال ً عن ذلك، تتفاقم أزمة ندرة األراضي بسبب الصراعات، وهي عوامل إضافية  تسهم في تدهور األراضي. وفي الواقع، تظهر مقارنة بين مناطق األراضي المحصولية بالقرب من حدود تركيا وسوريا أن  . 2017   % من أراضيه المحصولية بحلول عام 7   الصراع تسبب في خسارة الجانب السوري  ويؤدي سوء حوكمة األراضي إلى تفاقم ندرتها وصعوبة الحصول عليها. وفي منطقة الشرق األوسط وشمال أفريقيا، تتسم  أنظمة الحكم وما يرتبط بها من إصالحات على مر التاريخ.   أنظمة حوكمة األراضي بالتعقيد ألنها تعكس تراكم التغيرات في  وكثيرا ً ما تكون األطر القانونية متقادمة وال تساير الواقع أو احتياجات االقتصاد الحديث. وفي جميع البلدان باستثناء البلدان الغنية  في المنطقة واألردن، ال يزال ضعف تسجيل الممتلكات يمثل مشكلة رئيسية، مما يعكس األوضاع المعقدة لحيازة األراضي،  ً وإجراءات التسجيل المرهقة، وانخفاض إدراك منافع التسجيل. وفضال ً عن ذلك، غالبا ً ما تُنفذ سياسات حوكمة األراضي تنفيذا  سيئا ً بسبب التجزؤ المؤسسي على المستوى المركزي وضعف موثوقية البنية التحتية إلدارة األراضي، وهو ما يعقد تبادل  10   المعلومات والتنسيق فيما بين مؤسسات الدولة المركزية. وليس من غير المألوف أن يكون لدى بلدان المنطقة ما يصل إلى  مؤسسات تتنافس على مسؤوليات إدارة أراضي الدولة. وأخيراً، أسهم ارتفاع مستويات ملكية األراضي العامة في العديد من بلدان  المنطقة، وقوة سيطرة الدولة على قطاع األراضي، واتخاذ القرارات المركزية المبهمة بشأن تخصيص األراضي خارج نطاق  مبادئ التخصيص السوقي، في عدم كفاءة استخدام األراضي وتسهيل سيطرة النخبة والمحسوبية. ووفقا للتقارير القُطْرية لمؤشر  xvii",
+          "items": 123,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "بلدا ً من   17   من أصل   16   ، فقد أثر الفساد أو التدخل السياسي أو المحسوبية على حقوق الملكية في 2020   برتلسمان للتحول لعام  بلدان منطقة الشرق األوسط وشمال أفريقيا المشمولة بالتقرير.  وأدت السياسات المشوهة وال سيما السياسات الخاصة بالزراعة إلى تفاقم انعدام كفاءة إدارة حقوق الملكية وتوزيعها. فعلى  % 2   سبيل المثال، يحفز دعم المياه المقدم للزراعة االستخدام غير المستدام لألراضي، ويعد ممارسة شائعة جدا ً في منطقة تنفق  من إجمالي ناتجها المحلي على دعم المياه – وهو أعلى مستوى في العالم. أما فيما يتعلق بالقيود التنظيمية، فإن عدم كفاية اللوائح  التنظيمية الخاصة بتقسيم المناطق يسهم في انخفاض الكثافة السكانية، وعدم كفاءة استهالك األراضي، واألضرار البيئية. وال تشجع  أنظمة الضرائب على الممتلكات التي تتسم بسوء التصميم واألداء على استخدام األراضي بكفاءة. فعلى سبيل المثال، تعفي عدة  بلدان الوحدات السكنية الشاغرة من الضرائب العقارية، مما يعطي المالكين حافزا ً على إبقاء العقارات خالية. ويوجد ببعض المدن  ، وهو ما دفع بضعة بلدان إلى محاولة ( % من المساحة، في بعضها 75   أكثر من )   في المنطقة مساحات كبيرة من األراضي الشاغرة  استخدام أدوات المالية العامة، مثل ضريبة األراضي الشاغرة، لتشجيع استخدام األراضي ألغراض اإلنشاء في المراكز الحضرية.  ويؤدي عدم كفاءة تخصيص األراضي والسيطرة الشديدة من جانب الدولة إلى الحد من فعالية سياسات التنمية االقتصادية  المحلية. فعلى سبيل المثال، ليس من غير المألوف إنشاء مناطق صناعية في مواقع ال توجد بها بنية تحتية كافية ومقطوعة الصلة  دون استخدام األراضي كضمان، ويحد من األموال المتاحة   ( التسجيل والتقييم )   بأسواق العمل. ويحول ضعف إدارة األراضي  لالستثمار، ويقوض نمو أسواق االئتمان والتمويل العقاري. فعلى سبيل المثال، ال تتجاوز النسبة المئوية لألسر في الشرق األوسط  % فقط، وهو ما يقل عن المتوسط 9   ( نسبة انتشار قروض اإلسكان )   وشمال أفريقيا التي لديها رهن عقاري قائم على عقاراتها  العالمي. وقد أسهم ضعف إدارة األراضي، وال سيما عدم االعتراف بحقوق الحيازة وعمليات تقنين اإلجراءات المكلفة والمرهقة،  إلى جانب محدودية المعروض الرسمي من األراضي وسوء التخطيط الحضري، في انتشار المساكن العشوائية واألحياء العشوائية.  % من سكان الحضر يعيشون حاليا في أحياء عشوائية، مما يؤدي إلى استمرار انعدام أمن الحيازة، وتعقيد تسوية 24   والواقع أن  المنازعات، وزيادة تكاليف تقديم الخدمات، واإلضرار بالبيئة المحيطة.  وإذا كان لبلدان المنطقة أن تتفادى األزمة التي تلوح في األفق والنابعة من ندرة األراضي، وعدم تكافؤ فرص الحصول عليها،  واستخدامها استخداما ً غير منتج، فيتعين عليها صرف اهتمامها على وجه السرعة إلى قطاع األراضي. ويتطلب ذلك التركيز  على القضايا الخاصة بالقطاع تحديداً، وإدراك ضرورة وضع سياسات تطلعية لألراضي لالستجابة للتوجهات الكبرى المتمثلة في  ارتفاع معدالت النمو السكاني وتغير المناخ والتطلع إلى التحول االقتصادي والسياسي واالجتماعي.  الطريق نحو المستقبل  تحديث أنظمة إدارة األراضي  ينبغي لبلدان الشرق األوسط وشمال أفريقيا أن تبدأ بإعطاء األولوية لتحديث أنظمة إدارة األراضي. وتتمثل األولويات الواضحة  لإلجراءات التدخلية فيما يلي: تسجيل الملكية، ورقمنة السجالت، وتحسين الشفافية وإمكانية الحصول على المعلومات الخاصة  باألراضي.  وتعد التكنولوجيا مهمة نظرا ً لنطاق التحول الرقمي في المنطقة والفرص التي تتيحها التكنولوجيا للحلول الفعالة من حيث  التكلفة، وتوليد البيانات وتبادلها، وتقديم الخدمات، والشفافية، وكلها عوامل تفتقر إليها المنطقة بشدة. وقد تأخر كثيرا ً تحديث  األطر القانونية لتتسق مع احتياجات االقتصادات الحديثة والحد من تعقيدات أنظمة حيازة األراضي. وثمة حاجة أيضا ً إلى إجراء  إصالحات مؤسسية معقدة للتغلب على تحديات حوكمة األراضي. وينبغي اتخاذ خطوات لمعالجة التجزؤ المؤسسي وتبسيط وظائف  إدارة األراضي، والحد من السيطرة المفرطة لألطراف الفاعلة الحكومية، وتحسين الشفافية القتالع المحسوبية. ويمكن إلصالحات  حوكمة األراضي، ال سيما تلك التي تعزز أنظمة الضرائب على األراضي واإلدارة العامة لألراضي، أن تحقق إيرادات إضافية  وتحسن موارد المالية العامة. وهناك حاجة إلى أنظمة فعالة إلدارة األراضي لتنفيذ تحصيل قيمة األراضي ومساندة زيادة كفاءة  استخدام األراضي وقرارات إدارة األراضي، وخاصة بشأن األراضي العامة. ويجب أن تكون عمليات تخصيص األراضي أكثر  شفافية ومستندة إلى قوى السوق لضمان أن تخدم أراضي الدولة الوظائف االجتماعية واالقتصادية والمالية العامة.  مراعاة األهداف األوسع نطاقا ً للسياسات  باإلضافة إلى اإلجراءات التدخلية الخاصة بقطاعات محددة، تحتاج بلدان المنطقة إلى اعتماد نهج أكثر شمولية في قطاع األراضي.  وينبغي للحكومات أن تسعى إلى االستخدام األمثل لألراضي لتحقيق أهداف االستدامة االقتصادية واالجتماعية والبيئية في ظل  السياق المتطور لتغير المناخ، والنمو السكاني، والعديد من التحديات التي تواجه اقتصادات المنطقة. وتشمل هذه التحديات البطالة،  وعدم المساواة بين الجنسين والتفاوت االقتصادي، وتقادم نموذج ريع الموارد. وستكون هناك حاجة إلى دراسة متأنية لما يمكن  للحكومات تحقيقه وما الذي من األفضل تركه لألسواق.  | أهمية األراضي   xviii",
+          "items": 84,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "core-arabic-scanned",
+      "milliseconds": 2.7,
+      "pages": [
+        {
+          "page": 1,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "",
+          "items": 0,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "",
+          "items": 0,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "core-bilingual-mixed",
+      "milliseconds": 34,
+      "pages": [
+        {
+          "page": 1,
+          "width": 594.95996,
+          "height": 841.91998,
+          "view": [
+            0,
+            0,
+            594.95996,
+            841.91998
+          ],
+          "rotation": 0,
+          "text": "Regional Water Supply Review /   ﺔ ﻌ ﺟ ا ﺮ ﻣ  ه ﺎ ﻴ ﻤ ﻟ ادات ا ﺪ ﻣ إ  Delivered volumes /   ﻢ ﻴ ﻠ ﺴ ﺘ ﻟ ت ا ﺎ ﻴ ﻤ ﻛ  In 2024, North Basin delivered 12.4 million cubic metres and South Basin delivered 9.1 million cubic metres. The audited delivered total was 21.5 million cubic metres.  ن ﻮ ﻴ ﻠ ﻣ   ٩٫١   ﻲ ﺑ ﻮ ﻨ ﺠ ﻟ ض ا ﻮ ﺤ ﻟ ا   ﻢ ّ ﻠ ﺳ ، و ﺐ ﻌ ﻜ ﻣ   ﺮ ﺘ ﻣ   ن ﻮ ﻴ ﻠ ﻣ   ١٢٫٤   ﻲ ﻟ ﺎ ﻤ ﺸ ﻟ ض ا ﻮ ﺤ ﻟ ا   ﻢ ّ ﻠ ﺳ   ، ٢٠٢٤   م ﺎ ﻋ   ﻲ ﻓ  . ﺐ ﻌ ﻜ ﻣ   ﺮ ﺘ ﻣ   ن ﻮ ﻴ ﻠ ﻣ   ٢١٫٥   ﻖ ﻗ ﺪ ﻤ ﻟ ع ا ﻮ ﻤ ﺠ ﻤ ﻟ ا   ﻎ ﻠ ﺑ   . ﺐ ﻌ ﻜ ﻣ   ﺮ ﺘ ﻣ  Purpose-written evaluation   fi xture. All values are   fi ctional.",
+          "items": 151,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 594.95996,
+          "height": 841.91998,
+          "view": [
+            0,
+            0,
+            594.95996,
+            841.91998
+          ],
+          "rotation": 0,
+          "text": "Targets and methods /   ﺔ ﻴ ﺠ ﻬ ﻨ ﻤ ﻟ اف وا ﺪ ﻫ ﻷ ا  Approved target /   ﺪ ﻤ ﺘ ﻌ ﻤ ﻟ ف ا ﺪ ﻬ ﻟ ا  ﻢ ﻴ ﻠ ﺴ ﺗ   ﺔ ﺠ ﻴ ﺘ ﻧ   ﺲ ﻴ ﻟ و   ﻂ ﻄ ﺨ ﻣ   ف ﺪ ﻫ   ا ﺬ ﻫ   . ﺐ ﻌ ﻜ ﻣ   ﺮ ﺘ ﻣ   ن ﻮ ﻴ ﻠ ﻣ   ٢٣٫٠   ﻮ ﻫ   ٢٠٢٥   م ﺎ ﻌ ﻟ   ﺪ ﻤ ﺘ ﻌ ﻤ ﻟ ف ا ﺪ ﻬ ﻟ ا  ٢٠٢٥.   م ﺎ ﻌ ﻟ   ﺔ ﻴ ﻠ ﻌ ﻓ  The Arabic target statement above is a plan, not an observed 2025 delivery. The 2024 actual remains 21.5 million cubic metres.  Data note /   ت ﺎ ﻧ ﺎ ﻴ ﺒ ﻟ ا   ﺔ ﻈ ﺣ ﻼ ﻣ  . ﻂ ﻄ ﺨ ﻤ ﻟ ف ا ﺪ ﻬ ﻟ ا   ﻦ ﻣ   ﺎ ﻬ ﺟ ﺎ ﺘ ﻨ ﺘ ﺳ ز ا ﻮ ﺠ ﻳ   ا   . ل ٢٠٢٥   م ﺎ ﻌ ﻟ   ﺔ ﻴ ﻠ ﻌ ﻔ ﻟ ا   ﻢ ﻴ ﻠ ﺴ ﺘ ﻟ ا   ﺔ ﻤ ﻴ ﻗ   ﺰ ﺟ ﻮ ﻤ ﻟ ا ا ﺬ ﻫ   م ﺪ ﻘ ﻳ   ا   ل  The report does not provide an observed 2025 delivery value. No claim about 2025 achievement can be supported from this document.  Purpose-written evaluation   fi xture. All values are   fi ctional.",
+          "items": 211,
+          "samples": [
+            {
+              "text": "٢٣٫٠",
+              "transform": [
+                14.999999375,
+                0,
+                0,
+                14.999999375,
+                375.2577968642578,
+                713.6699853437499
+              ],
+              "dir": "rtl"
+            },
+            {
+              "text": "٢٠٢٥",
+              "transform": [
+                14.999999375,
+                0,
+                0,
+                14.999999375,
+                417.949205085449,
+                713.6699853437499
+              ],
+              "dir": "rtl"
+            },
+            {
+              "text": "٢٠٢٥.",
+              "transform": [
+                14.999999375,
+                0,
+                0,
+                14.999999375,
+                459.7382658442381,
+                690.4199863124999
+              ],
+              "dir": "rtl"
+            },
+            {
+              "text": "٢٠٢٥",
+              "transform": [
+                14.999999375,
+                0,
+                0,
+                14.999999375,
+                285.6679605971678,
+                583.1699907812499
+              ],
+              "dir": "rtl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-bilingual-native",
+      "milliseconds": 30.74,
+      "pages": [
+        {
+          "page": 1,
+          "width": 594.95996,
+          "height": 841.91998,
+          "view": [
+            0,
+            0,
+            594.95996,
+            841.91998
+          ],
+          "rotation": 0,
+          "text": "Regional Water Supply Review /   ﺔ ﻌ ﺟ ا ﺮ ﻣ  ه ﺎ ﻴ ﻤ ﻟ ادات ا ﺪ ﻣ إ  Delivered volumes /   ﻢ ﻴ ﻠ ﺴ ﺘ ﻟ ت ا ﺎ ﻴ ﻤ ﻛ  In 2024, North Basin delivered 12.4 million cubic metres and South Basin delivered 9.1 million cubic metres. The audited delivered total was 21.5 million cubic metres.  ن ﻮ ﻴ ﻠ ﻣ   ٩٫١   ﻲ ﺑ ﻮ ﻨ ﺠ ﻟ ض ا ﻮ ﺤ ﻟ ا   ﻢ ّ ﻠ ﺳ ، و ﺐ ﻌ ﻜ ﻣ   ﺮ ﺘ ﻣ   ن ﻮ ﻴ ﻠ ﻣ   ١٢٫٤   ﻲ ﻟ ﺎ ﻤ ﺸ ﻟ ض ا ﻮ ﺤ ﻟ ا   ﻢ ّ ﻠ ﺳ   ، ٢٠٢٤   م ﺎ ﻋ   ﻲ ﻓ  . ﺐ ﻌ ﻜ ﻣ   ﺮ ﺘ ﻣ   ن ﻮ ﻴ ﻠ ﻣ   ٢١٫٥   ﻖ ﻗ ﺪ ﻤ ﻟ ع ا ﻮ ﻤ ﺠ ﻤ ﻟ ا   ﻎ ﻠ ﺑ   . ﺐ ﻌ ﻜ ﻣ   ﺮ ﺘ ﻣ  Area /   ﺔ ﻘ ﻄ ﻨ ﻤ ﻟ ا   Year   Delivered (million m3)  North Basin   2024   12.4  South Basin   2024   9.1  Delivered total   2024   21.5  Purpose-written evaluation   fi xture. All values are   fi ctional.",
+          "items": 179,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 594.95996,
+          "height": 841.91998,
+          "view": [
+            0,
+            0,
+            594.95996,
+            841.91998
+          ],
+          "rotation": 0,
+          "text": "Targets and methods /   ﺔ ﻴ ﺠ ﻬ ﻨ ﻤ ﻟ اف وا ﺪ ﻫ ﻷ ا  Approved target /   ﺪ ﻤ ﺘ ﻌ ﻤ ﻟ ف ا ﺪ ﻬ ﻟ ا  ﻢ ﻴ ﻠ ﺴ ﺗ   ﺔ ﺠ ﻴ ﺘ ﻧ   ﺲ ﻴ ﻟ و   ﻂ ﻄ ﺨ ﻣ   ف ﺪ ﻫ   ا ﺬ ﻫ   . ﺐ ﻌ ﻜ ﻣ   ﺮ ﺘ ﻣ   ن ﻮ ﻴ ﻠ ﻣ   ٢٣٫٠   ﻮ ﻫ   ٢٠٢٥   م ﺎ ﻌ ﻟ   ﺪ ﻤ ﺘ ﻌ ﻤ ﻟ ف ا ﺪ ﻬ ﻟ ا  ٢٠٢٥.   م ﺎ ﻌ ﻟ   ﺔ ﻴ ﻠ ﻌ ﻓ  The Arabic target statement above is a plan, not an observed 2025 delivery. The 2024 actual remains 21.5 million cubic metres.  Data note /   ت ﺎ ﻧ ﺎ ﻴ ﺒ ﻟ ا   ﺔ ﻈ ﺣ ﻼ ﻣ  . ﻂ ﻄ ﺨ ﻤ ﻟ ف ا ﺪ ﻬ ﻟ ا   ﻦ ﻣ   ﺎ ﻬ ﺟ ﺎ ﺘ ﻨ ﺘ ﺳ ز ا ﻮ ﺠ ﻳ   ا   . ل ٢٠٢٥   م ﺎ ﻌ ﻟ   ﺔ ﻴ ﻠ ﻌ ﻔ ﻟ ا   ﻢ ﻴ ﻠ ﺴ ﺘ ﻟ ا   ﺔ ﻤ ﻴ ﻗ   ﺰ ﺟ ﻮ ﻤ ﻟ ا ا ﺬ ﻫ   م ﺪ ﻘ ﻳ   ا   ل  The report does not provide an observed 2025 delivery value. No claim about 2025 achievement can be supported from this document.  Purpose-written evaluation   fi xture. All values are   fi ctional.",
+          "items": 211,
+          "samples": [
+            {
+              "text": "٢٣٫٠",
+              "transform": [
+                14.999999375,
+                0,
+                0,
+                14.999999375,
+                375.2577968642578,
+                713.6699853437499
+              ],
+              "dir": "rtl"
+            },
+            {
+              "text": "٢٠٢٥",
+              "transform": [
+                14.999999375,
+                0,
+                0,
+                14.999999375,
+                417.949205085449,
+                713.6699853437499
+              ],
+              "dir": "rtl"
+            },
+            {
+              "text": "٢٠٢٥.",
+              "transform": [
+                14.999999375,
+                0,
+                0,
+                14.999999375,
+                459.7382658442381,
+                690.4199863124999
+              ],
+              "dir": "rtl"
+            },
+            {
+              "text": "٢٠٢٥",
+              "transform": [
+                14.999999375,
+                0,
+                0,
+                14.999999375,
+                285.6679605971678,
+                583.1699907812499
+              ],
+              "dir": "rtl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-bilingual-scanned",
+      "milliseconds": 2.05,
+      "pages": [
+        {
+          "page": 1,
+          "width": 595.2,
+          "height": 842,
+          "view": [
+            0,
+            0,
+            595.2,
+            842
+          ],
+          "rotation": 0,
+          "text": "",
+          "items": 0,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 595.2,
+          "height": 842,
+          "view": [
+            0,
+            0,
+            595.2,
+            842
+          ],
+          "rotation": 0,
+          "text": "",
+          "items": 0,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "core-english-mixed",
+      "milliseconds": 30.21,
+      "pages": [
+        {
+          "page": 1,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "Executive Summary  CHALLENGES  Across the Middle East and North Africa (MENA), land is scarce and immensely valuable  because of strong geographic and climatic constraints (84 percent of land in the region is barren  and only 3.5 percent is cultivated). The projected increase in the demand for land stemming  from demographic trends, coupled with the shrinking supply of land arising from climatic and  governance factors, are indicative of a looming crisis at a time the region is also facing a dramatic  social and political transformation. The reserves for land cultivation are almost exhausted, and  the room for expanding cropland under rainfed conditions is the lowest in the world, limited to  only 9–17 percent of the existing area under cultivation, as opposed to 150 percent globally.  Urbanization trends are also exerting pressure on land. With the urban population expected to  increase by 60 percent (190 million) by 2050, under current conditions the total urban built-up  area in the MENA region will likely have to expand by at least 50 percent (1.3 million additional  hectares). And yet land remains inefficiently, inequitably, and unsustainably used.  Meanwhile, both firms and individuals face high barriers to accessing land, with adverse  effects throughout the MENA region. Twenty-three percent of firms in the manufacturing and  service sectors identify land accessibility as a major constraint on their business operations.  Political connections are used to access land, which may result in the misallocation of land to  politically connected firms instead of to more productive ones. In the MENA region, there are  twice as many politically connected firms (5.9 percent) as in the Europe and Central Asia (ECA)  region (2.4 percent), with a few countries experiencing very high levels of political connections  among firms (up to 28 percent).  Barriers to accessing land reduce economic efficiency within and across sectors and  perpetuate inequality, especially among women and vulnerable groups. Women in the  MENA region have the lowest rate of ownership of agricultural properties in the world  and are two to three times more likely to fear losing their property in the event of spousal  death or divorce. Formal and informal institutions and gender-imbalanced social norms and  practices (especially in rural areas and in matters of inheritance and asset management) do  not sufficiently support women’s rights. Indeed, women commonly face social pressures to  “voluntarily” renounce their inheritance of properties—according to Jordanian   shariʻa   court  data, over the last decade up to a third of heirs fully relinquished their inheritance rights  every year. Refugees also face difficult access to land, with conflict in the MENA region  causing displacement of millions of people who lack housing, land, and property rights in  both origin and destination countries. Moreover, the land scarcity crisis is exacerbated by  conflicts, which are additional factors contributing to land degradation. In fact, a comparison  of cropland areas in the vicinity of the Türkiye and Syrian Arab Republic border shows that  the conflict caused the Syrian side to lose 7 percent of its cropland by 2017.  Scarcity of land and difficulty of access to land are worsened by poor land governance. In the  MENA region, land governance systems are complex as they reflect the cumulation of regime  changes and associated reforms throughout history. Legal frameworks are frequently outdated  and not aligned with reality or the needs of the modern economy. In all but the rich countries  xvii",
+          "items": 46,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "",
+          "items": 0,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "core-english-native",
+      "milliseconds": 32.51,
+      "pages": [
+        {
+          "page": 1,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "Executive Summary  CHALLENGES  Across the Middle East and North Africa (MENA), land is scarce and immensely valuable  because of strong geographic and climatic constraints (84 percent of land in the region is barren  and only 3.5 percent is cultivated). The projected increase in the demand for land stemming  from demographic trends, coupled with the shrinking supply of land arising from climatic and  governance factors, are indicative of a looming crisis at a time the region is also facing a dramatic  social and political transformation. The reserves for land cultivation are almost exhausted, and  the room for expanding cropland under rainfed conditions is the lowest in the world, limited to  only 9–17 percent of the existing area under cultivation, as opposed to 150 percent globally.  Urbanization trends are also exerting pressure on land. With the urban population expected to  increase by 60 percent (190 million) by 2050, under current conditions the total urban built-up  area in the MENA region will likely have to expand by at least 50 percent (1.3 million additional  hectares). And yet land remains inefficiently, inequitably, and unsustainably used.  Meanwhile, both firms and individuals face high barriers to accessing land, with adverse  effects throughout the MENA region. Twenty-three percent of firms in the manufacturing and  service sectors identify land accessibility as a major constraint on their business operations.  Political connections are used to access land, which may result in the misallocation of land to  politically connected firms instead of to more productive ones. In the MENA region, there are  twice as many politically connected firms (5.9 percent) as in the Europe and Central Asia (ECA)  region (2.4 percent), with a few countries experiencing very high levels of political connections  among firms (up to 28 percent).  Barriers to accessing land reduce economic efficiency within and across sectors and  perpetuate inequality, especially among women and vulnerable groups. Women in the  MENA region have the lowest rate of ownership of agricultural properties in the world  and are two to three times more likely to fear losing their property in the event of spousal  death or divorce. Formal and informal institutions and gender-imbalanced social norms and  practices (especially in rural areas and in matters of inheritance and asset management) do  not sufficiently support women’s rights. Indeed, women commonly face social pressures to  “voluntarily” renounce their inheritance of properties—according to Jordanian   shariʻa   court  data, over the last decade up to a third of heirs fully relinquished their inheritance rights  every year. Refugees also face difficult access to land, with conflict in the MENA region  causing displacement of millions of people who lack housing, land, and property rights in  both origin and destination countries. Moreover, the land scarcity crisis is exacerbated by  conflicts, which are additional factors contributing to land degradation. In fact, a comparison  of cropland areas in the vicinity of the Türkiye and Syrian Arab Republic border shows that  the conflict caused the Syrian side to lose 7 percent of its cropland by 2017.  Scarcity of land and difficulty of access to land are worsened by poor land governance. In the  MENA region, land governance systems are complex as they reflect the cumulation of regime  changes and associated reforms throughout history. Legal frameworks are frequently outdated  and not aligned with reality or the needs of the modern economy. In all but the rich countries  xvii",
+          "items": 46,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "in the region and Jordan, poor property registration remains a key problem, reflecting complex  land tenure situations, onerous registration procedures, and a low perception of the benefits  of registration. Furthermore, land governance policies are often poorly implemented because  of institutional fragmentation at the central level and the weak reliability of land administration  infrastructure, which complicates information sharing and coordination across central state  institutions. It is not uncommon for countries in the region to have up to 10 institutions competing  for responsibilities for state land management. Finally, in many MENA countries high levels of  public land ownership, strong state control of the land sector, and centralized, opaque decision-  making processes on the allocation of land outside market allocation principles have contributed  to inefficient land use and facilitated elite capture and cronyism. According to the Bertelsmann  Transformation Index country reports for 2020, in 16 of the 17 MENA countries covered,  corruption, political interference, or cronyism affected property rights.  The lack of effective administration and allocation of property rights is compounded by  distortive policies, especially those for agriculture. For example, water subsidies to agriculture  incentivize unsustainable use of land and are very common practice in a region that spends  2 percent of its GDP on water subsidies—the highest level in the world. As for regulatory  constraints, inadequate zoning regulations contribute to low densities, inefficient land  consumption, and environmental harm. Poorly designed and improperly functioning property  taxation systems do not encourage efficient land use. For example, several countries exempt  vacant residential units from property taxation, which gives owners an incentive to maintain  empty properties. Some cities in the region have large amounts of vacant land (in some, more  than 75 percent of the footprint), leading a few countries to attempt to use fiscal instruments,  such as a vacant land tax, to encourage the use of land for construction in urban centers.  The inefficient allocation of land and the heavy control by the state reduce the effectiveness  of local economic development policies. For example, it is not uncommon for industrial zones  to be established in locations with insufficient infrastructure and disconnected from labor  markets. Weak land administration (registration and valuation) prevents the use of land as  collateral, restricts the funds available for investment, and undermines the growth of credit  and mortgage markets. For example, the percentage of households in the MENA region with  an outstanding mortgage on their property (housing loan penetration) is only 9 percent, which  is below the world average. The weakness of land administration, in particular the lack of  recognition of tenure rights and costly and cumbersome formalization processes, combined  with a limited formal land supply and poor urban planning, have contributed to the widespread  informal housing and slums. Indeed, 24 percent of the urban population is currently living in  slums, thereby perpetuating tenure insecurity, complicating dispute resolution, increasing the  costs of service provision, and harming the surrounding environment.  If MENA countries are to avert the looming crisis stemming from land that is scarce,  unequally accessed, and used unproductively, they need to urgently turn their attention to the  land sector. This requires both focusing on sector-specific issues and realizing that forward-  looking land policies are required to respond to the megatrends of high population growth  and climate change and the aspiration for economic, political, and social transformation.  THE ROAD AHEAD  Modernizing Land Administration Systems  MENA countries should begin by prioritizing the modernization of land administration  systems. Clear priorities for intervention are property registration, digitization of records, and  improvements in transparency and the accessibility of land information.  xviii | Land Matters",
+          "items": 47,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "core-english-scanned",
+      "milliseconds": 2.42,
+      "pages": [
+        {
+          "page": 1,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "",
+          "items": 0,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 576,
+          "height": 756,
+          "view": [
+            0,
+            0,
+            576,
+            756
+          ],
+          "rotation": 0,
+          "text": "",
+          "items": 0,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "stress-conflicting-figures",
+      "milliseconds": 15.01,
+      "pages": [
+        {
+          "page": 1,
+          "width": 612,
+          "height": 792,
+          "view": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "rotation": 0,
+          "text": "Draft service report - 2 April 2025  Draft 2024 leakage estimate: 18.4 percent.",
+          "items": 2,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 612,
+          "height": 792,
+          "view": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "rotation": 0,
+          "text": "Audited service report - 15 May 2025  Audited 2024 leakage estimate: 17.9 percent. This supersedes the draft figure.",
+          "items": 2,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "stress-crop",
+      "milliseconds": 7.62,
+      "pages": [
+        {
+          "page": 1,
+          "width": 468,
+          "height": 648,
+          "view": [
+            72,
+            72,
+            540,
+            720
+          ],
+          "rotation": 0,
+          "text": "Cropped service memorandum  Visible service coverage: 71 percent in 2024. No 2025 observation is reported.",
+          "items": 3,
+          "samples": [
+            {
+              "text": "Visible service coverage: 71 percent in 2024.",
+              "transform": [
+                12,
+                0,
+                0,
+                12,
+                100,
+                610
+              ],
+              "dir": "ltr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stress-degraded-ocr",
+      "milliseconds": 0.83,
+      "pages": [
+        {
+          "page": 1,
+          "width": 612,
+          "height": 792,
+          "view": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "rotation": 0,
+          "text": "",
+          "items": 0,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "stress-reading-order",
+      "milliseconds": 8.44,
+      "pages": [
+        {
+          "page": 1,
+          "width": 612,
+          "height": 792,
+          "view": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "rotation": 0,
+          "text": "Two-column maintenance note  1. Finding   2. Action  The north pump failed its inspection on 6 May 2024. No outage was recorded. Replace the seal before 30 June 2024; then verify pressure at 12 bar.  Sidebar: 12 bar is a planned check, not a measured result.",
+          "items": 11,
+          "samples": []
+        }
+      ]
+    },
+    {
+      "id": "stress-rotation",
+      "milliseconds": 7.5,
+      "pages": [
+        {
+          "page": 1,
+          "width": 792,
+          "height": 612,
+          "view": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "rotation": 90,
+          "text": "Rotated inspection memorandum  Verified pump uptime: 97.2 percent in 2024. Target for 2025: 98.0 percent.",
+          "items": 3,
+          "samples": [
+            {
+              "text": "Verified pump uptime: 97.2 percent in 2024.",
+              "transform": [
+                12,
+                0,
+                0,
+                12,
+                70,
+                650
+              ],
+              "dir": "ltr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stress-table-continuation",
+      "milliseconds": 10.75,
+      "pages": [
+        {
+          "page": 1,
+          "width": 612,
+          "height": 792,
+          "view": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "rotation": 0,
+          "text": "Annual delivery table  All figures are fictional. Values are delivered volumes, not targets.  District   2023   2024   Unit  North   12.1   12.4   million m3 South   8.7   9.1   million m3 Continues on next page.",
+          "items": 24,
+          "samples": []
+        },
+        {
+          "page": 2,
+          "width": 612,
+          "height": 792,
+          "view": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "rotation": 0,
+          "text": "Annual delivery table (continued)  All figures are fictional. Values are delivered volumes, not targets.  District   2023   2024   Unit  East   4.0   4.4   million m3 West   3.8   3.5   million m3 End of table.",
+          "items": 24,
+          "samples": []
+        }
+      ]
+    }
+  ]
+}

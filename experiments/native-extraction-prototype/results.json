@@ -1,0 +1,1062 @@
+{
+  "versions": {
+    "pymupdf": "1.26.5",
+    "poppler": "pdftotext 26.01.0"
+  },
+  "fixtures": [
+    {
+      "id": "core-arabic-mixed",
+      "modalities": [
+        "native",
+        "scanned"
+      ],
+      "poppler": {
+        "seconds": 0.0775,
+        "characters": 4304,
+        "words": 683,
+        "number_tokens": [
+          "1.3",
+          "10",
+          "150",
+          "17",
+          "190",
+          "2.4",
+          "2017",
+          "2050",
+          "23",
+          "28",
+          "3.5",
+          "5.9",
+          "50",
+          "60",
+          "7",
+          "84",
+          "9"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0897,
+        "characters": 4105,
+        "words": 690,
+        "number_tokens": [
+          "1.3",
+          "10",
+          "150",
+          "17",
+          "190",
+          "2.4",
+          "2017",
+          "2050",
+          "23",
+          "28",
+          "3.5",
+          "5.9",
+          "50",
+          "60",
+          "7",
+          "84",
+          "9"
+        ],
+        "native_blocks": [
+          7,
+          0
+        ],
+        "image_blocks": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "core-arabic-native",
+      "modalities": [
+        "native",
+        "native"
+      ],
+      "poppler": {
+        "seconds": 0.0809,
+        "characters": 8941,
+        "words": 1358,
+        "number_tokens": [
+          "1.3",
+          "10",
+          "150",
+          "16",
+          "17",
+          "190",
+          "2",
+          "2.4",
+          "2017",
+          "2020",
+          "2050",
+          "23",
+          "24",
+          "28",
+          "3.5",
+          "5.9",
+          "50",
+          "60",
+          "7",
+          "75",
+          "84",
+          "9"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0783,
+        "characters": 8521,
+        "words": 1399,
+        "number_tokens": [
+          "1.3",
+          "10",
+          "150",
+          "16",
+          "17",
+          "190",
+          "2",
+          "2.4",
+          "2017",
+          "2020",
+          "2050",
+          "23",
+          "24",
+          "28",
+          "3.5",
+          "5.9",
+          "50",
+          "60",
+          "7",
+          "75",
+          "84",
+          "9"
+        ],
+        "native_blocks": [
+          7,
+          13
+        ],
+        "image_blocks": [
+          0,
+          0
+        ]
+      },
+      "sample_words": {
+        "poppler": [
+          {
+            "page": 1,
+            "text": "%84‏(",
+            "box": [
+              462.8583,
+              208.94,
+              485.9999,
+              222.25
+            ],
+            "normalized": [
+              0.80357,
+              0.27638,
+              0.84375,
+              0.29398
+            ]
+          },
+          {
+            "page": 1,
+            "text": "%23",
+            "box": [
+              263.0217,
+              325.94,
+              283.0317,
+              339.25
+            ],
+            "normalized": [
+              0.45663,
+              0.43114,
+              0.49137,
+              0.44874
+            ]
+          }
+        ],
+        "pymupdf": [
+          {
+            "page": 1,
+            "text": "%84‏(",
+            "box": [
+              462.8583,
+              208.94,
+              485.9999,
+              222.25
+            ],
+            "normalized": [
+              0.80357,
+              0.27638,
+              0.84375,
+              0.29398
+            ]
+          },
+          {
+            "page": 1,
+            "text": "%23",
+            "box": [
+              263.0218,
+              325.94,
+              283.0318,
+              339.25
+            ],
+            "normalized": [
+              0.45664,
+              0.43114,
+              0.49137,
+              0.44874
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "core-arabic-scanned",
+      "modalities": [
+        "scanned",
+        "scanned"
+      ],
+      "poppler": {
+        "seconds": 0.0254,
+        "characters": 2,
+        "words": 0,
+        "number_tokens": []
+      },
+      "pymupdf": {
+        "seconds": 0.0029,
+        "characters": 1,
+        "words": 0,
+        "number_tokens": [],
+        "native_blocks": [
+          0,
+          0
+        ],
+        "image_blocks": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "core-bilingual-mixed",
+      "modalities": [
+        "native plus scanned table region",
+        "native"
+      ],
+      "poppler": {
+        "seconds": 0.0446,
+        "characters": 1105,
+        "words": 170,
+        "number_tokens": [
+          "12.4",
+          "2024",
+          "2025",
+          "21.5",
+          "9.1",
+          "٠",
+          "١",
+          "١٢",
+          "٢٠٢٤",
+          "٢٠٢٥",
+          "٢١",
+          "٢٣",
+          "٤",
+          "٥",
+          "٩"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0503,
+        "characters": 1051,
+        "words": 174,
+        "number_tokens": [
+          "12.4",
+          "2024",
+          "2025",
+          "21.5",
+          "9.1",
+          "٠",
+          "١",
+          "١٢",
+          "٢١",
+          "٣٢",
+          "٤",
+          "٤٢٠٢",
+          "٥",
+          "٥٢٠٢",
+          "٩"
+        ],
+        "native_blocks": [
+          7,
+          11
+        ],
+        "image_blocks": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "core-bilingual-native",
+      "modalities": [
+        "native",
+        "native"
+      ],
+      "poppler": {
+        "seconds": 0.0444,
+        "characters": 1231,
+        "words": 189,
+        "number_tokens": [
+          "12.4",
+          "2024",
+          "2025",
+          "21.5",
+          "3",
+          "9.1",
+          "٠",
+          "١",
+          "١٢",
+          "٢٠٢٤",
+          "٢٠٢٥",
+          "٢١",
+          "٢٣",
+          "٤",
+          "٥",
+          "٩"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0227,
+        "characters": 1162,
+        "words": 193,
+        "number_tokens": [
+          "12.4",
+          "2024",
+          "2025",
+          "21.5",
+          "3",
+          "9.1",
+          "٠",
+          "١",
+          "١٢",
+          "٢١",
+          "٣٢",
+          "٤",
+          "٤٢٠٢",
+          "٥",
+          "٥٢٠٢",
+          "٩"
+        ],
+        "native_blocks": [
+          11,
+          11
+        ],
+        "image_blocks": [
+          0,
+          0
+        ]
+      },
+      "sample_words": {
+        "poppler": [
+          {
+            "page": 1,
+            "text": "12.4",
+            "box": [
+              209.3973,
+              138.4701,
+              231.6551,
+              150.1078
+            ],
+            "normalized": [
+              0.35195,
+              0.16447,
+              0.38936,
+              0.17829
+            ]
+          },
+          {
+            "page": 1,
+            "text": "21.5",
+            "box": [
+              286.2276,
+              153.4701,
+              308.4855,
+              165.1078
+            ],
+            "normalized": [
+              0.48109,
+              0.18229,
+              0.5185,
+              0.19611
+            ]
+          },
+          {
+            "page": 1,
+            "text": "12.4",
+            "box": [
+              304.1719,
+              277.396,
+              324.2109,
+              287.8725
+            ],
+            "normalized": [
+              0.51125,
+              0.32948,
+              0.54493,
+              0.34192
+            ]
+          },
+          {
+            "page": 1,
+            "text": "21.5",
+            "box": [
+              304.1719,
+              333.646,
+              324.2109,
+              344.1225
+            ],
+            "normalized": [
+              0.51125,
+              0.39629,
+              0.54493,
+              0.40874
+            ]
+          },
+          {
+            "page": 2,
+            "text": "21.5",
+            "box": [
+              97.2487,
+              187.9701,
+              119.5065,
+              199.6078
+            ],
+            "normalized": [
+              0.16345,
+              0.22326,
+              0.20086,
+              0.23709
+            ]
+          }
+        ],
+        "pymupdf": [
+          {
+            "page": 1,
+            "text": "12.4",
+            "box": [
+              209.3973,
+              138.4701,
+              231.6528,
+              150.1078
+            ],
+            "normalized": [
+              0.35195,
+              0.16447,
+              0.38936,
+              0.17829
+            ]
+          },
+          {
+            "page": 1,
+            "text": "21.5",
+            "box": [
+              286.2277,
+              153.4701,
+              308.4832,
+              165.1078
+            ],
+            "normalized": [
+              0.48109,
+              0.18229,
+              0.51849,
+              0.19611
+            ]
+          },
+          {
+            "page": 1,
+            "text": "12.4",
+            "box": [
+              304.1719,
+              277.396,
+              324.2059,
+              287.8726
+            ],
+            "normalized": [
+              0.51125,
+              0.32948,
+              0.54492,
+              0.34192
+            ]
+          },
+          {
+            "page": 1,
+            "text": "21.5",
+            "box": [
+              304.1719,
+              333.646,
+              324.2059,
+              344.1226
+            ],
+            "normalized": [
+              0.51125,
+              0.39629,
+              0.54492,
+              0.40874
+            ]
+          },
+          {
+            "page": 2,
+            "text": "21.5",
+            "box": [
+              97.2487,
+              187.9701,
+              119.5042,
+              199.6078
+            ],
+            "normalized": [
+              0.16345,
+              0.22326,
+              0.20086,
+              0.23709
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "core-bilingual-scanned",
+      "modalities": [
+        "scanned",
+        "scanned"
+      ],
+      "poppler": {
+        "seconds": 0.037,
+        "characters": 2,
+        "words": 0,
+        "number_tokens": []
+      },
+      "pymupdf": {
+        "seconds": 0.0022,
+        "characters": 1,
+        "words": 0,
+        "number_tokens": [],
+        "native_blocks": [
+          0,
+          0
+        ],
+        "image_blocks": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "core-english-mixed",
+      "modalities": [
+        "native",
+        "scanned"
+      ],
+      "poppler": {
+        "seconds": 0.0903,
+        "characters": 3572,
+        "words": 553,
+        "number_tokens": [
+          "1.3",
+          "150",
+          "17",
+          "190",
+          "2.4",
+          "2017",
+          "2050",
+          "28",
+          "3.5",
+          "5.9",
+          "50",
+          "60",
+          "7",
+          "84",
+          "9"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0441,
+        "characters": 3607,
+        "words": 553,
+        "number_tokens": [
+          "1.3",
+          "150",
+          "17",
+          "190",
+          "2.4",
+          "2017",
+          "2050",
+          "28",
+          "3.5",
+          "5.9",
+          "50",
+          "60",
+          "7",
+          "84",
+          "9"
+        ],
+        "native_blocks": [
+          7,
+          0
+        ],
+        "image_blocks": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "core-english-native",
+      "modalities": [
+        "native",
+        "native"
+      ],
+      "poppler": {
+        "seconds": 0.0985,
+        "characters": 7670,
+        "words": 1141,
+        "number_tokens": [
+          "1.3",
+          "10",
+          "150",
+          "16",
+          "17",
+          "190",
+          "2",
+          "2.4",
+          "2017",
+          "2020",
+          "2050",
+          "24",
+          "28",
+          "3.5",
+          "5.9",
+          "50",
+          "60",
+          "7",
+          "75",
+          "84",
+          "9"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0649,
+        "characters": 7746,
+        "words": 1139,
+        "number_tokens": [
+          "1.3",
+          "10",
+          "150",
+          "16",
+          "17",
+          "190",
+          "2",
+          "2.4",
+          "2017",
+          "2020",
+          "2050",
+          "24",
+          "28",
+          "3.5",
+          "5.9",
+          "50",
+          "60",
+          "7",
+          "75",
+          "84",
+          "9"
+        ],
+        "native_blocks": [
+          7,
+          7
+        ],
+        "image_blocks": [
+          0,
+          0
+        ]
+      },
+      "sample_words": {
+        "poppler": [
+          {
+            "page": 1,
+            "text": "(84",
+            "box": [
+              315.56,
+              208.21,
+              329.6,
+              222.25
+            ],
+            "normalized": [
+              0.54785,
+              0.27541,
+              0.57222,
+              0.29398
+            ]
+          }
+        ],
+        "pymupdf": [
+          {
+            "page": 1,
+            "text": "(84",
+            "box": [
+              315.5601,
+              208.21,
+              329.6001,
+              222.25
+            ],
+            "normalized": [
+              0.54785,
+              0.27541,
+              0.57222,
+              0.29398
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "core-english-scanned",
+      "modalities": [
+        "scanned",
+        "scanned"
+      ],
+      "poppler": {
+        "seconds": 0.029,
+        "characters": 2,
+        "words": 0,
+        "number_tokens": []
+      },
+      "pymupdf": {
+        "seconds": 0.0029,
+        "characters": 1,
+        "words": 0,
+        "number_tokens": [],
+        "native_blocks": [
+          0,
+          0
+        ],
+        "image_blocks": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "stress-conflicting-figures",
+      "modalities": [
+        "native",
+        "native"
+      ],
+      "poppler": {
+        "seconds": 0.0394,
+        "characters": 199,
+        "words": 31,
+        "number_tokens": [
+          "15",
+          "17.9",
+          "18.4",
+          "2",
+          "2024",
+          "2025"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0153,
+        "characters": 196,
+        "words": 31,
+        "number_tokens": [
+          "15",
+          "17.9",
+          "18.4",
+          "2",
+          "2024",
+          "2025"
+        ],
+        "native_blocks": [
+          2,
+          2
+        ],
+        "image_blocks": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stress-crop",
+      "modalities": [
+        "native"
+      ],
+      "poppler": {
+        "seconds": 0.0375,
+        "characters": 140,
+        "words": 15,
+        "number_tokens": [
+          "2024",
+          "2025",
+          "71",
+          "99"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0051,
+        "characters": 106,
+        "words": 15,
+        "number_tokens": [
+          "2024",
+          "2025",
+          "71"
+        ],
+        "native_blocks": [
+          3
+        ],
+        "image_blocks": [
+          0
+        ]
+      },
+      "crop": {
+        "poppler_decoy": true,
+        "pymupdf_decoy": false,
+        "poppler_visible": true,
+        "pymupdf_visible": true
+      }
+    },
+    {
+      "id": "stress-degraded-ocr",
+      "modalities": [
+        "scanned"
+      ],
+      "poppler": {
+        "seconds": 0.0359,
+        "characters": 1,
+        "words": 0,
+        "number_tokens": []
+      },
+      "pymupdf": {
+        "seconds": 0.0015,
+        "characters": 0,
+        "words": 0,
+        "number_tokens": [],
+        "native_blocks": [
+          0
+        ],
+        "image_blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "stress-reading-order",
+      "modalities": [
+        "native"
+      ],
+      "poppler": {
+        "seconds": 0.0354,
+        "characters": 264,
+        "words": 45,
+        "number_tokens": [
+          "1",
+          "12",
+          "2",
+          "2024",
+          "30",
+          "6"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.007,
+        "characters": 254,
+        "words": 45,
+        "number_tokens": [
+          "1",
+          "12",
+          "2",
+          "2024",
+          "30",
+          "6"
+        ],
+        "native_blocks": [
+          9
+        ],
+        "image_blocks": [
+          0
+        ]
+      },
+      "reading_order": {
+        "cues": [
+          "1. Finding",
+          "The north pump",
+          "No outage",
+          "2. Action",
+          "Replace the seal",
+          "pressure at 12 bar",
+          "Sidebar:"
+        ],
+        "poppler_positions": [
+          28,
+          51,
+          157,
+          40,
+          78,
+          182,
+          203
+        ],
+        "pymupdf_positions": [
+          28,
+          49,
+          101,
+          39,
+          125,
+          175,
+          195
+        ]
+      }
+    },
+    {
+      "id": "stress-rotation",
+      "modalities": [
+        "native"
+      ],
+      "poppler": {
+        "seconds": 0.0379,
+        "characters": 107,
+        "words": 15,
+        "number_tokens": [
+          "2024",
+          "2025",
+          "97.2",
+          "98.0"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0053,
+        "characters": 105,
+        "words": 15,
+        "number_tokens": [
+          "2024",
+          "2025",
+          "97.2",
+          "98.0"
+        ],
+        "native_blocks": [
+          3
+        ],
+        "image_blocks": [
+          0
+        ]
+      },
+      "rotation": {
+        "pymupdf_page": {
+          "width": 792.0,
+          "height": 612.0,
+          "rotation": 90,
+          "cropbox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "rotation_matrix": [
+            0.0,
+            1.0,
+            -1.0,
+            0.0,
+            792.0,
+            0.0
+          ]
+        },
+        "pymupdf_97_2": [
+          {
+            "page": 1,
+            "text": "97.2",
+            "box": [
+              647.1172,
+              208.78,
+              659.1172,
+              235.492
+            ],
+            "normalized": [
+              0.81707,
+              0.34114,
+              0.83222,
+              0.38479
+            ]
+          }
+        ],
+        "poppler_97_2": [
+          {
+            "page": 1,
+            "text": "97.2",
+            "box": [
+              647.1172,
+              208.7676,
+              659.1172,
+              235.4863
+            ],
+            "normalized": [
+              0.81707,
+              0.34112,
+              0.83222,
+              0.38478
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "stress-table-continuation",
+      "modalities": [
+        "native",
+        "native"
+      ],
+      "poppler": {
+        "seconds": 0.0414,
+        "characters": 412,
+        "words": 62,
+        "number_tokens": [
+          "12.1",
+          "12.4",
+          "2023",
+          "2024",
+          "3",
+          "3.5",
+          "3.8",
+          "4.0",
+          "4.4",
+          "8.7",
+          "9.1"
+        ]
+      },
+      "pymupdf": {
+        "seconds": 0.0079,
+        "characters": 383,
+        "words": 62,
+        "number_tokens": [
+          "12.1",
+          "12.4",
+          "2023",
+          "2024",
+          "3",
+          "3.5",
+          "3.8",
+          "4.0",
+          "4.4",
+          "8.7",
+          "9.1"
+        ],
+        "native_blocks": [
+          6,
+          6
+        ],
+        "image_blocks": [
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}
