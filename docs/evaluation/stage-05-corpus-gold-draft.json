@@ -1,0 +1,1291 @@
+{
+  "schema_version": "0.1",
+  "status": "human_verified",
+  "coordinate_space": "Original visible PDF page after effective crop/rotation; top-left origin; normalized [x0,y0,x1,y1]",
+  "evidence_rules": [
+    "A wrong cited page fails the case.",
+    "A guessed exact rectangle fails the case.",
+    "An unsupported factual claim presented confidently fails the case.",
+    "Page-only fallback is allowed when exact location is unreliable and is explicitly marked."
+  ],
+  "core_case_count": 36,
+  "core_questions": [
+    {
+      "id": "english-native-q1",
+      "pdf": "core-english-native.pdf",
+      "family": "english",
+      "variant": "native",
+      "kind": "direct_fact",
+      "question": "What share of MENA land does the report describe as barren?",
+      "expected_answer": "84 percent.",
+      "claims": [
+        "84 percent of MENA land is described as barren."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.27513,
+            0.84375,
+            0.29497
+          ],
+          "source_hint": "84 percent barren",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "english-native-q2",
+      "pdf": "core-english-native.pdf",
+      "family": "english",
+      "variant": "native",
+      "kind": "combined_evidence",
+      "question": "Why does the report call for modernizing land administration systems?",
+      "expected_answer": "Land is scarce and access is constrained; the report proposes better registration, digitized records, transparency, and accessible land information as priorities.",
+      "claims": [
+        "The report links land scarcity and access problems to a need for land-sector reform.",
+        "It prioritizes property registration, digitization, transparency, and land information access."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.25794,
+            0.84375,
+            0.34524
+          ],
+          "source_hint": "scarcity, demand and supply",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.15625,
+            0.85979,
+            0.84375,
+            0.91402
+          ],
+          "source_hint": "land administration priorities",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "english-native-q3",
+      "pdf": "core-english-native.pdf",
+      "family": "english",
+      "variant": "native",
+      "kind": "table_or_statistic",
+      "question": "What share of manufacturing and service firms identify land access as a major constraint?",
+      "expected_answer": "23 percent.",
+      "claims": [
+        "23 percent of those firms identify land access as a major constraint."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.46429,
+            0.84375,
+            0.51587
+          ],
+          "source_hint": "twenty-three percent of firms",
+          "precision": "line_or_block"
+        }
+      ],
+      "statistic": {
+        "value": 23,
+        "unit": "percent",
+        "status": "extracted",
+        "population": "manufacturing and service firms"
+      },
+      "support": "supported"
+    },
+    {
+      "id": "english-native-q4",
+      "pdf": "core-english-native.pdf",
+      "family": "english",
+      "variant": "native",
+      "kind": "insufficient_evidence",
+      "question": "What was MENA's property-tax revenue in 2025?",
+      "expected_answer": "Insufficient evidence: these pages do not report 2025 property-tax revenue.",
+      "claims": [],
+      "evidence": [],
+      "support": "unsupported",
+      "expected_action": "abstain"
+    },
+    {
+      "id": "english-scanned-q1",
+      "pdf": "core-english-scanned.pdf",
+      "family": "english",
+      "variant": "scanned",
+      "kind": "direct_fact",
+      "question": "What share of MENA land does the report describe as barren?",
+      "expected_answer": "84 percent.",
+      "claims": [
+        "84 percent of MENA land is described as barren."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.27513,
+            0.84375,
+            0.29497
+          ],
+          "source_hint": "84 percent barren",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "english-scanned-q2",
+      "pdf": "core-english-scanned.pdf",
+      "family": "english",
+      "variant": "scanned",
+      "kind": "combined_evidence",
+      "question": "Why does the report call for modernizing land administration systems?",
+      "expected_answer": "Land is scarce and access is constrained; the report proposes better registration, digitized records, transparency, and accessible land information as priorities.",
+      "claims": [
+        "The report links land scarcity and access problems to a need for land-sector reform.",
+        "It prioritizes property registration, digitization, transparency, and land information access."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.25794,
+            0.84375,
+            0.34524
+          ],
+          "source_hint": "scarcity, demand and supply",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.15625,
+            0.85979,
+            0.84375,
+            0.91402
+          ],
+          "source_hint": "land administration priorities",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "english-scanned-q3",
+      "pdf": "core-english-scanned.pdf",
+      "family": "english",
+      "variant": "scanned",
+      "kind": "table_or_statistic",
+      "question": "What share of manufacturing and service firms identify land access as a major constraint?",
+      "expected_answer": "23 percent.",
+      "claims": [
+        "23 percent of those firms identify land access as a major constraint."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.46429,
+            0.84375,
+            0.51587
+          ],
+          "source_hint": "twenty-three percent of firms",
+          "precision": "line_or_block"
+        }
+      ],
+      "statistic": {
+        "value": 23,
+        "unit": "percent",
+        "status": "extracted",
+        "population": "manufacturing and service firms"
+      },
+      "support": "supported"
+    },
+    {
+      "id": "english-scanned-q4",
+      "pdf": "core-english-scanned.pdf",
+      "family": "english",
+      "variant": "scanned",
+      "kind": "insufficient_evidence",
+      "question": "What was MENA's property-tax revenue in 2025?",
+      "expected_answer": "Insufficient evidence: these pages do not report 2025 property-tax revenue.",
+      "claims": [],
+      "evidence": [],
+      "support": "unsupported",
+      "expected_action": "abstain"
+    },
+    {
+      "id": "english-mixed-q1",
+      "pdf": "core-english-mixed.pdf",
+      "family": "english",
+      "variant": "mixed",
+      "kind": "direct_fact",
+      "question": "What share of MENA land does the report describe as barren?",
+      "expected_answer": "84 percent.",
+      "claims": [
+        "84 percent of MENA land is described as barren."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.27513,
+            0.84375,
+            0.29497
+          ],
+          "source_hint": "84 percent barren",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "english-mixed-q2",
+      "pdf": "core-english-mixed.pdf",
+      "family": "english",
+      "variant": "mixed",
+      "kind": "combined_evidence",
+      "question": "Why does the report call for modernizing land administration systems?",
+      "expected_answer": "Land is scarce and access is constrained; the report proposes better registration, digitized records, transparency, and accessible land information as priorities.",
+      "claims": [
+        "The report links land scarcity and access problems to a need for land-sector reform.",
+        "It prioritizes property registration, digitization, transparency, and land information access."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.25794,
+            0.84375,
+            0.34524
+          ],
+          "source_hint": "scarcity, demand and supply",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.15625,
+            0.85979,
+            0.84375,
+            0.91402
+          ],
+          "source_hint": "land administration priorities",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "english-mixed-q3",
+      "pdf": "core-english-mixed.pdf",
+      "family": "english",
+      "variant": "mixed",
+      "kind": "table_or_statistic",
+      "question": "What share of manufacturing and service firms identify land access as a major constraint?",
+      "expected_answer": "23 percent.",
+      "claims": [
+        "23 percent of those firms identify land access as a major constraint."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.46429,
+            0.84375,
+            0.51587
+          ],
+          "source_hint": "twenty-three percent of firms",
+          "precision": "line_or_block"
+        }
+      ],
+      "statistic": {
+        "value": 23,
+        "unit": "percent",
+        "status": "extracted",
+        "population": "manufacturing and service firms"
+      },
+      "support": "supported"
+    },
+    {
+      "id": "english-mixed-q4",
+      "pdf": "core-english-mixed.pdf",
+      "family": "english",
+      "variant": "mixed",
+      "kind": "insufficient_evidence",
+      "question": "What was MENA's property-tax revenue in 2025?",
+      "expected_answer": "Insufficient evidence: these pages do not report 2025 property-tax revenue.",
+      "claims": [],
+      "evidence": [],
+      "support": "unsupported",
+      "expected_action": "abstain"
+    },
+    {
+      "id": "arabic-native-q1",
+      "pdf": "core-arabic-native.pdf",
+      "family": "arabic",
+      "variant": "native",
+      "kind": "direct_fact",
+      "question": "ما نسبة الأراضي القاحلة في منطقة الشرق الأوسط وشمال أفريقيا وفق التقرير؟",
+      "expected_answer": "٨٤٪.",
+      "claims": [
+        "يصف التقرير ٨٤٪ من أراضي المنطقة بأنها قاحلة."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.25794,
+            0.84375,
+            0.29497
+          ],
+          "source_hint": "٨٤٪ من الأراضي قاحلة",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "arabic-native-q2",
+      "pdf": "core-arabic-native.pdf",
+      "family": "arabic",
+      "variant": "native",
+      "kind": "combined_evidence",
+      "question": "لماذا يدعو التقرير إلى تحديث أنظمة إدارة الأراضي؟",
+      "expected_answer": "تتسم الأراضي بالندرة وتواجه عملية الحصول عليها عوائق؛ وتشمل الأولويات تسجيل الملكية ورقمنة السجلات وتحسين الشفافية وإتاحة المعلومات.",
+      "claims": [
+        "يربط التقرير الندرة وصعوبات الحصول على الأراضي بالحاجة إلى الإصلاح.",
+        "يوصي بتسجيل الملكية ورقمنة السجلات وتحسين الشفافية وإتاحة المعلومات."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.25794,
+            0.84375,
+            0.32804
+          ],
+          "source_hint": "ندرة الأراضي وعوائق الوصول",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.15625,
+            0.55026,
+            0.84375,
+            0.58598
+          ],
+          "source_hint": "أولويات تحديث إدارة الأراضي",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "arabic-native-q3",
+      "pdf": "core-arabic-native.pdf",
+      "family": "arabic",
+      "variant": "native",
+      "kind": "table_or_statistic",
+      "question": "ما نسبة شركات الصناعة والخدمات التي تعد الحصول على الأراضي قيداً رئيسياً؟",
+      "expected_answer": "٢٣٪.",
+      "claims": [
+        "ترى ٢٣٪ من تلك الشركات أن الحصول على الأراضي قيد رئيسي."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.41138,
+            0.84375,
+            0.46429
+          ],
+          "source_hint": "٢٣٪ من الشركات",
+          "precision": "line_or_block"
+        }
+      ],
+      "statistic": {
+        "value": 23,
+        "unit": "percent",
+        "status": "extracted",
+        "population": "manufacturing and service firms"
+      },
+      "support": "supported"
+    },
+    {
+      "id": "arabic-native-q4",
+      "pdf": "core-arabic-native.pdf",
+      "family": "arabic",
+      "variant": "native",
+      "kind": "insufficient_evidence",
+      "question": "ما إيرادات ضريبة العقارات في المنطقة عام ٢٠٢٥؟",
+      "expected_answer": "الأدلة غير كافية: لا تذكر الصفحات إيرادات ضريبة العقارات لعام ٢٠٢٥.",
+      "claims": [],
+      "evidence": [],
+      "support": "unsupported",
+      "expected_action": "abstain"
+    },
+    {
+      "id": "arabic-scanned-q1",
+      "pdf": "core-arabic-scanned.pdf",
+      "family": "arabic",
+      "variant": "scanned",
+      "kind": "direct_fact",
+      "question": "ما نسبة الأراضي القاحلة في منطقة الشرق الأوسط وشمال أفريقيا وفق التقرير؟",
+      "expected_answer": "٨٤٪.",
+      "claims": [
+        "يصف التقرير ٨٤٪ من أراضي المنطقة بأنها قاحلة."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.25794,
+            0.84375,
+            0.29497
+          ],
+          "source_hint": "٨٤٪ من الأراضي قاحلة",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "arabic-scanned-q2",
+      "pdf": "core-arabic-scanned.pdf",
+      "family": "arabic",
+      "variant": "scanned",
+      "kind": "combined_evidence",
+      "question": "لماذا يدعو التقرير إلى تحديث أنظمة إدارة الأراضي؟",
+      "expected_answer": "تتسم الأراضي بالندرة وتواجه عملية الحصول عليها عوائق؛ وتشمل الأولويات تسجيل الملكية ورقمنة السجلات وتحسين الشفافية وإتاحة المعلومات.",
+      "claims": [
+        "يربط التقرير الندرة وصعوبات الحصول على الأراضي بالحاجة إلى الإصلاح.",
+        "يوصي بتسجيل الملكية ورقمنة السجلات وتحسين الشفافية وإتاحة المعلومات."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.25794,
+            0.84375,
+            0.32804
+          ],
+          "source_hint": "ندرة الأراضي وعوائق الوصول",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.15625,
+            0.55026,
+            0.84375,
+            0.58598
+          ],
+          "source_hint": "أولويات تحديث إدارة الأراضي",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "arabic-scanned-q3",
+      "pdf": "core-arabic-scanned.pdf",
+      "family": "arabic",
+      "variant": "scanned",
+      "kind": "table_or_statistic",
+      "question": "ما نسبة شركات الصناعة والخدمات التي تعد الحصول على الأراضي قيداً رئيسياً؟",
+      "expected_answer": "٢٣٪.",
+      "claims": [
+        "ترى ٢٣٪ من تلك الشركات أن الحصول على الأراضي قيد رئيسي."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.41138,
+            0.84375,
+            0.46429
+          ],
+          "source_hint": "٢٣٪ من الشركات",
+          "precision": "line_or_block"
+        }
+      ],
+      "statistic": {
+        "value": 23,
+        "unit": "percent",
+        "status": "extracted",
+        "population": "manufacturing and service firms"
+      },
+      "support": "supported"
+    },
+    {
+      "id": "arabic-scanned-q4",
+      "pdf": "core-arabic-scanned.pdf",
+      "family": "arabic",
+      "variant": "scanned",
+      "kind": "insufficient_evidence",
+      "question": "ما إيرادات ضريبة العقارات في المنطقة عام ٢٠٢٥؟",
+      "expected_answer": "الأدلة غير كافية: لا تذكر الصفحات إيرادات ضريبة العقارات لعام ٢٠٢٥.",
+      "claims": [],
+      "evidence": [],
+      "support": "unsupported",
+      "expected_action": "abstain"
+    },
+    {
+      "id": "arabic-mixed-q1",
+      "pdf": "core-arabic-mixed.pdf",
+      "family": "arabic",
+      "variant": "mixed",
+      "kind": "direct_fact",
+      "question": "ما نسبة الأراضي القاحلة في منطقة الشرق الأوسط وشمال أفريقيا وفق التقرير؟",
+      "expected_answer": "٨٤٪.",
+      "claims": [
+        "يصف التقرير ٨٤٪ من أراضي المنطقة بأنها قاحلة."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.25794,
+            0.84375,
+            0.29497
+          ],
+          "source_hint": "٨٤٪ من الأراضي قاحلة",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "arabic-mixed-q2",
+      "pdf": "core-arabic-mixed.pdf",
+      "family": "arabic",
+      "variant": "mixed",
+      "kind": "combined_evidence",
+      "question": "لماذا يدعو التقرير إلى تحديث أنظمة إدارة الأراضي؟",
+      "expected_answer": "تتسم الأراضي بالندرة وتواجه عملية الحصول عليها عوائق؛ وتشمل الأولويات تسجيل الملكية ورقمنة السجلات وتحسين الشفافية وإتاحة المعلومات.",
+      "claims": [
+        "يربط التقرير الندرة وصعوبات الحصول على الأراضي بالحاجة إلى الإصلاح.",
+        "يوصي بتسجيل الملكية ورقمنة السجلات وتحسين الشفافية وإتاحة المعلومات."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.25794,
+            0.84375,
+            0.32804
+          ],
+          "source_hint": "ندرة الأراضي وعوائق الوصول",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.15625,
+            0.55026,
+            0.84375,
+            0.58598
+          ],
+          "source_hint": "أولويات تحديث إدارة الأراضي",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "arabic-mixed-q3",
+      "pdf": "core-arabic-mixed.pdf",
+      "family": "arabic",
+      "variant": "mixed",
+      "kind": "table_or_statistic",
+      "question": "ما نسبة شركات الصناعة والخدمات التي تعد الحصول على الأراضي قيداً رئيسياً؟",
+      "expected_answer": "٢٣٪.",
+      "claims": [
+        "ترى ٢٣٪ من تلك الشركات أن الحصول على الأراضي قيد رئيسي."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.15625,
+            0.41138,
+            0.84375,
+            0.46429
+          ],
+          "source_hint": "٢٣٪ من الشركات",
+          "precision": "line_or_block"
+        }
+      ],
+      "statistic": {
+        "value": 23,
+        "unit": "percent",
+        "status": "extracted",
+        "population": "manufacturing and service firms"
+      },
+      "support": "supported"
+    },
+    {
+      "id": "arabic-mixed-q4",
+      "pdf": "core-arabic-mixed.pdf",
+      "family": "arabic",
+      "variant": "mixed",
+      "kind": "insufficient_evidence",
+      "question": "ما إيرادات ضريبة العقارات في المنطقة عام ٢٠٢٥؟",
+      "expected_answer": "الأدلة غير كافية: لا تذكر الصفحات إيرادات ضريبة العقارات لعام ٢٠٢٥.",
+      "claims": [],
+      "evidence": [],
+      "support": "unsupported",
+      "expected_action": "abstain"
+    },
+    {
+      "id": "bilingual-native-q1",
+      "pdf": "core-bilingual-native.pdf",
+      "family": "bilingual",
+      "variant": "native",
+      "kind": "direct_fact",
+      "question": "How much did North Basin deliver in 2024? / كم سلّم الحوض الشمالي في عام ٢٠٢٤؟",
+      "expected_answer": "12.4 million cubic metres / ١٢٫٤ مليون متر مكعب.",
+      "claims": [
+        "North Basin delivered 12.4 million cubic metres in 2024."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08908,
+            0.16391,
+            0.88409,
+            0.19717
+          ],
+          "source_hint": "North Basin observed amount",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "bilingual-native-q2",
+      "pdf": "core-bilingual-native.pdf",
+      "family": "bilingual",
+      "variant": "native",
+      "kind": "combined_evidence",
+      "question": "What was the 2025 target, and was it observed? / ما هدف ٢٠٢٥، وهل كان نتيجة فعلية؟",
+      "expected_answer": "No. The document gives 21.5 million cubic metres as the audited 2024 actual and 23.0 million cubic metres as the planned 2025 target; it gives no 2025 actual.",
+      "claims": [
+        "The 2024 actual was 21.5 million cubic metres.",
+        "The 2025 figure of 23.0 million cubic metres is a target, not an observed result."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08908,
+            0.16391,
+            0.88409,
+            0.19717
+          ],
+          "source_hint": "English actual",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.13782,
+            0.13303,
+            0.91099,
+            0.19242
+          ],
+          "source_hint": "Arabic target distinction",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported",
+      "cross_language_evidence_required": true
+    },
+    {
+      "id": "bilingual-native-q3",
+      "pdf": "core-bilingual-native.pdf",
+      "family": "bilingual",
+      "variant": "native",
+      "kind": "table_or_statistic",
+      "question": "What is the gap between the 2024 delivered total and the 2025 target? / ما الفارق بين مجموع ٢٠٢٤ وهدف ٢٠٢٥؟",
+      "expected_answer": "1.5 million cubic metres / ١٫٥ مليون متر مكعب.",
+      "claims": [
+        "The 2025 target exceeds the 2024 delivered total by 1.5 million cubic metres."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08908,
+            0.28506,
+            0.91099,
+            0.44541
+          ],
+          "source_hint": "table delivered total",
+          "precision": "table_region"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.13782,
+            0.13303,
+            0.91099,
+            0.19242
+          ],
+          "source_hint": "Arabic target",
+          "precision": "line_or_block"
+        }
+      ],
+      "statistic": {
+        "value": 1.5,
+        "unit": "million cubic metres",
+        "status": "derived",
+        "formula": "23.0 - 21.5"
+      },
+      "support": "supported",
+      "cross_language_evidence_required": true
+    },
+    {
+      "id": "bilingual-native-q4",
+      "pdf": "core-bilingual-native.pdf",
+      "family": "bilingual",
+      "variant": "native",
+      "kind": "insufficient_evidence",
+      "question": "What was the actual delivery in 2025? / ما كمية التسليم الفعلية في ٢٠٢٥؟",
+      "expected_answer": "Insufficient evidence: only a 2025 target is given, not an actual delivery.",
+      "claims": [],
+      "evidence": [],
+      "support": "unsupported",
+      "expected_action": "abstain",
+      "absence_context": [
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.13446,
+            0.28744,
+            0.91099,
+            0.3492
+          ],
+          "source_hint": "document explicitly says no 2025 actual",
+          "precision": "line_or_block"
+        }
+      ]
+    },
+    {
+      "id": "bilingual-scanned-q1",
+      "pdf": "core-bilingual-scanned.pdf",
+      "family": "bilingual",
+      "variant": "scanned",
+      "kind": "direct_fact",
+      "question": "How much did North Basin deliver in 2024? / كم سلّم الحوض الشمالي في عام ٢٠٢٤؟",
+      "expected_answer": "12.4 million cubic metres / ١٢٫٤ مليون متر مكعب.",
+      "claims": [
+        "North Basin delivered 12.4 million cubic metres in 2024."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08908,
+            0.16391,
+            0.88409,
+            0.19717
+          ],
+          "source_hint": "North Basin observed amount",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "bilingual-scanned-q2",
+      "pdf": "core-bilingual-scanned.pdf",
+      "family": "bilingual",
+      "variant": "scanned",
+      "kind": "combined_evidence",
+      "question": "What was the 2025 target, and was it observed? / ما هدف ٢٠٢٥، وهل كان نتيجة فعلية؟",
+      "expected_answer": "No. The document gives 21.5 million cubic metres as the audited 2024 actual and 23.0 million cubic metres as the planned 2025 target; it gives no 2025 actual.",
+      "claims": [
+        "The 2024 actual was 21.5 million cubic metres.",
+        "The 2025 figure of 23.0 million cubic metres is a target, not an observed result."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08908,
+            0.16391,
+            0.88409,
+            0.19717
+          ],
+          "source_hint": "English actual",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.13782,
+            0.13303,
+            0.91099,
+            0.19242
+          ],
+          "source_hint": "Arabic target distinction",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported",
+      "cross_language_evidence_required": true
+    },
+    {
+      "id": "bilingual-scanned-q3",
+      "pdf": "core-bilingual-scanned.pdf",
+      "family": "bilingual",
+      "variant": "scanned",
+      "kind": "table_or_statistic",
+      "question": "What is the gap between the 2024 delivered total and the 2025 target? / ما الفارق بين مجموع ٢٠٢٤ وهدف ٢٠٢٥؟",
+      "expected_answer": "1.5 million cubic metres / ١٫٥ مليون متر مكعب.",
+      "claims": [
+        "The 2025 target exceeds the 2024 delivered total by 1.5 million cubic metres."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08908,
+            0.28506,
+            0.91099,
+            0.44541
+          ],
+          "source_hint": "table delivered total",
+          "precision": "table_region"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.13782,
+            0.13303,
+            0.91099,
+            0.19242
+          ],
+          "source_hint": "Arabic target",
+          "precision": "line_or_block"
+        }
+      ],
+      "statistic": {
+        "value": 1.5,
+        "unit": "million cubic metres",
+        "status": "derived",
+        "formula": "23.0 - 21.5"
+      },
+      "support": "supported",
+      "cross_language_evidence_required": true
+    },
+    {
+      "id": "bilingual-scanned-q4",
+      "pdf": "core-bilingual-scanned.pdf",
+      "family": "bilingual",
+      "variant": "scanned",
+      "kind": "insufficient_evidence",
+      "question": "What was the actual delivery in 2025? / ما كمية التسليم الفعلية في ٢٠٢٥؟",
+      "expected_answer": "Insufficient evidence: only a 2025 target is given, not an actual delivery.",
+      "claims": [],
+      "evidence": [],
+      "support": "unsupported",
+      "expected_action": "abstain",
+      "absence_context": [
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.13446,
+            0.28744,
+            0.91099,
+            0.3492
+          ],
+          "source_hint": "document explicitly says no 2025 actual",
+          "precision": "line_or_block"
+        }
+      ]
+    },
+    {
+      "id": "bilingual-mixed-q1",
+      "pdf": "core-bilingual-mixed.pdf",
+      "family": "bilingual",
+      "variant": "mixed",
+      "kind": "direct_fact",
+      "question": "How much did North Basin deliver in 2024? / كم سلّم الحوض الشمالي في عام ٢٠٢٤؟",
+      "expected_answer": "12.4 million cubic metres / ١٢٫٤ مليون متر مكعب.",
+      "claims": [
+        "North Basin delivered 12.4 million cubic metres in 2024."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08908,
+            0.16391,
+            0.88409,
+            0.19717
+          ],
+          "source_hint": "North Basin observed amount",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported"
+    },
+    {
+      "id": "bilingual-mixed-q2",
+      "pdf": "core-bilingual-mixed.pdf",
+      "family": "bilingual",
+      "variant": "mixed",
+      "kind": "combined_evidence",
+      "question": "What was the 2025 target, and was it observed? / ما هدف ٢٠٢٥، وهل كان نتيجة فعلية؟",
+      "expected_answer": "No. The document gives 21.5 million cubic metres as the audited 2024 actual and 23.0 million cubic metres as the planned 2025 target; it gives no 2025 actual.",
+      "claims": [
+        "The 2024 actual was 21.5 million cubic metres.",
+        "The 2025 figure of 23.0 million cubic metres is a target, not an observed result."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08908,
+            0.16391,
+            0.88409,
+            0.19717
+          ],
+          "source_hint": "English actual",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.13782,
+            0.13303,
+            0.91099,
+            0.19242
+          ],
+          "source_hint": "Arabic target distinction",
+          "precision": "line_or_block"
+        }
+      ],
+      "support": "supported",
+      "cross_language_evidence_required": true
+    },
+    {
+      "id": "bilingual-mixed-q3",
+      "pdf": "core-bilingual-mixed.pdf",
+      "family": "bilingual",
+      "variant": "mixed",
+      "kind": "table_or_statistic",
+      "question": "What is the gap between the 2024 delivered total and the 2025 target? / ما الفارق بين مجموع ٢٠٢٤ وهدف ٢٠٢٥؟",
+      "expected_answer": "1.5 million cubic metres / ١٫٥ مليون متر مكعب.",
+      "claims": [
+        "The 2025 target exceeds the 2024 delivered total by 1.5 million cubic metres."
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08908,
+            0.28506,
+            0.91099,
+            0.44541
+          ],
+          "source_hint": "scanned page-1 table region",
+          "precision": "table_region"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.13782,
+            0.13303,
+            0.91099,
+            0.19242
+          ],
+          "source_hint": "Arabic target",
+          "precision": "line_or_block"
+        }
+      ],
+      "statistic": {
+        "value": 1.5,
+        "unit": "million cubic metres",
+        "status": "derived",
+        "formula": "23.0 - 21.5"
+      },
+      "support": "supported",
+      "cross_language_evidence_required": true
+    },
+    {
+      "id": "bilingual-mixed-q4",
+      "pdf": "core-bilingual-mixed.pdf",
+      "family": "bilingual",
+      "variant": "mixed",
+      "kind": "insufficient_evidence",
+      "question": "What was the actual delivery in 2025? / ما كمية التسليم الفعلية في ٢٠٢٥؟",
+      "expected_answer": "Insufficient evidence: only a 2025 target is given, not an actual delivery.",
+      "claims": [],
+      "evidence": [],
+      "support": "unsupported",
+      "expected_action": "abstain",
+      "absence_context": [
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.13446,
+            0.28744,
+            0.91099,
+            0.3492
+          ],
+          "source_hint": "document explicitly says no 2025 actual",
+          "precision": "line_or_block"
+        }
+      ]
+    }
+  ],
+  "table_truth": {
+    "core-bilingual": {
+      "rows": [
+        {
+          "area": "North Basin",
+          "year": 2024,
+          "delivered_million_m3": 12.4
+        },
+        {
+          "area": "South Basin",
+          "year": 2024,
+          "delivered_million_m3": 9.1
+        },
+        {
+          "area": "Delivered total",
+          "year": 2024,
+          "delivered_million_m3": 21.5
+        }
+      ],
+      "page": 1,
+      "region": {
+        "page": 1,
+        "rect_normalized": [
+          0.08908,
+          0.28506,
+          0.91099,
+          0.44541
+        ],
+        "source_hint": "entire table",
+        "precision": "table_region"
+      },
+      "target_outside_table": {
+        "page": 2,
+        "value": 23.0,
+        "unit": "million cubic metres",
+        "type": "planned target"
+      }
+    }
+  },
+  "stress_expectations": [
+    {
+      "file": "stress-rotation.pdf",
+      "focus": "page rotation",
+      "question": "What was verified pump uptime in 2024?",
+      "expected_answer": "97.2 percent.",
+      "expected_behavior": "Exact visible-page highlight only after rotation transform is verified; otherwise page-only fallback.",
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.81692,
+            0.33987,
+            0.83333,
+            0.38562
+          ],
+          "source_hint": "97.2 vertical text after page rotation",
+          "precision": "line_or_block"
+        }
+      ],
+      "review_note": "Rotated PDF bbox requires viewer-coordinate check."
+    },
+    {
+      "file": "stress-crop.pdf",
+      "focus": "nondefault crop",
+      "question": "What is visible service coverage in 2024?",
+      "expected_answer": "71 percent; the 99 percent decoy lies outside the visible CropBox.",
+      "expected_behavior": "Use visible cropped page coordinates; never cite or answer from the outside-crop decoy.",
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.05983,
+            0.15432,
+            0.64103,
+            0.17593
+          ],
+          "source_hint": "visible 71 percent line",
+          "precision": "line_or_block"
+        }
+      ],
+      "review_note": "Review with viewer honoring CropBox; default pdftoppm rendering may show MediaBox."
+    },
+    {
+      "file": "stress-reading-order.pdf",
+      "focus": "two-column reading order",
+      "question": "What action follows the north-pump finding?",
+      "expected_answer": "Replace the seal before 30 June 2024, then verify pressure at 12 bar.",
+      "expected_behavior": "Read left finding then right action; keep sidebar separate from observed results.",
+      "reading_order": [
+        "left heading",
+        "left finding",
+        "right heading",
+        "right action",
+        "sidebar"
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.0817,
+            0.12879,
+            0.3268,
+            0.25253
+          ],
+          "source_hint": "left finding",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.52288,
+            0.12879,
+            0.76797,
+            0.25253
+          ],
+          "source_hint": "right action",
+          "precision": "line_or_block"
+        }
+      ]
+    },
+    {
+      "file": "stress-table-continuation.pdf",
+      "focus": "multi-page table",
+      "question": "What were North and West delivered volumes in 2024?",
+      "expected_answer": "North: 12.4 million m3; West: 3.5 million m3.",
+      "expected_behavior": "Join the continued table across pages while preserving each cell's page and region.",
+      "table_cells": [
+        {
+          "page": 1,
+          "row": "North",
+          "column": "2024",
+          "value": 12.4
+        },
+        {
+          "page": 2,
+          "row": "West",
+          "column": "2024",
+          "value": 3.5
+        }
+      ],
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.07353,
+            0.21465,
+            0.92647,
+            0.27146
+          ],
+          "source_hint": "North row",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.07353,
+            0.27146,
+            0.92647,
+            0.32828
+          ],
+          "source_hint": "West row",
+          "precision": "line_or_block"
+        }
+      ]
+    },
+    {
+      "file": "stress-degraded-ocr.pdf",
+      "focus": "degraded scan",
+      "question": "What valve-integrity value is shown?",
+      "expected_answer": "The visible page appears to show 63 percent, but extraction should warn or withhold if OCR confidence is inadequate.",
+      "expected_behavior": "Do not fabricate an exact span or high-support factual answer; page-only fallback or explicit uncertainty is acceptable.",
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.08987,
+            0.16414,
+            0.62092,
+            0.20833
+          ],
+          "source_hint": "blurred valve integrity line",
+          "precision": "approximate_page_region"
+        }
+      ],
+      "allow_page_only_fallback": true
+    },
+    {
+      "file": "stress-conflicting-figures.pdf",
+      "focus": "draft-versus-audited figures",
+      "question": "What was the audited 2024 leakage estimate?",
+      "expected_answer": "17.9 percent; the earlier 18.4 percent was a draft superseded by the audit.",
+      "expected_behavior": "Cite both draft and audited pages when explaining the conflict; do not silently select the draft.",
+      "evidence": [
+        {
+          "page": 1,
+          "rect_normalized": [
+            0.0817,
+            0.15783,
+            0.69444,
+            0.19571
+          ],
+          "source_hint": "draft 18.4 percent",
+          "precision": "line_or_block"
+        },
+        {
+          "page": 2,
+          "rect_normalized": [
+            0.0817,
+            0.15783,
+            0.9232,
+            0.19571
+          ],
+          "source_hint": "audited 17.9 percent supersedes draft",
+          "precision": "line_or_block"
+        }
+      ]
+    }
+  ]
+}

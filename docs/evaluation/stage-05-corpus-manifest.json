@@ -1,0 +1,1004 @@
+{
+  "schema_version": "0.1",
+  "status": "fixture files and gold annotations human verified",
+  "mvp_limits": {
+    "max_pages": 20,
+    "initial_byte_target": 25000000
+  },
+  "source_location_contract": "ADR 0001: normalized top-left coordinates on the visible original page after crop and rotation",
+  "license_notes": "World Bank pages are short CC BY 3.0 IGO excerpts. Attribute the original, identify adaptations, and do not imply World Bank endorsement. The two full publisher PDFs stay outside this repository; only excerpts are fixtures.",
+  "entries": [
+    {
+      "id": "core-arabic-mixed",
+      "file": "output/pdf/stage-05-corpus/core-arabic-mixed.pdf",
+      "sha256": "27ae99a750b1d0c3f8e37bcc2af475adf0d01864ca408bfcffeda630896bd1e6",
+      "bytes": 876234,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        }
+      ],
+      "family": "arabic",
+      "variant": "mixed",
+      "correlation_group": "arabic",
+      "rights": {
+        "basis": "World Bank CC BY 3.0 IGO, text-only excerpt from publisher Arabic edition",
+        "source_url": "https://documents1.worldbank.org/curated/en/099605208272415635/pdf/IDU1238311ae1eae41426918dc5170a628fd0af2.pdf",
+        "publisher_record": "https://openknowledge.worldbank.org/entities/publication/582c44fd-db27-57b9-bc1c-60270b43bc02",
+        "source_sha256": "1670c3da6f184f7f708ea3fd1f259d19768925d93d5654d22cd0ba99c5a84477",
+        "source_pdf_pages": [
+          19,
+          20
+        ],
+        "third_party_page_review": "Selected executive-summary pages are prose-only; no separately credited photos, figures, or tables appear on the selected pages.",
+        "attribution": "كورسي، آنا وهاريس سيلود. 2023. أهمية الأراضي. البنك الدولي. doi:10.1596/978-1-4648-1889-9. CC BY 3.0 IGO."
+      },
+      "transformation": "Keep excerpt page 1 native and substitute rasterized page 2.",
+      "page_languages": [
+        "arabic",
+        "arabic"
+      ],
+      "page_modalities": [
+        "native",
+        "scanned"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "core-arabic-native",
+      "file": "output/pdf/stage-05-corpus/core-arabic-native.pdf",
+      "sha256": "a69627f65fb652f6bd1fb89252c75f6d876df9c34d5975a040a5169f2c583414",
+      "bytes": 529869,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        }
+      ],
+      "family": "arabic",
+      "variant": "native",
+      "correlation_group": "arabic",
+      "rights": {
+        "basis": "World Bank CC BY 3.0 IGO, text-only excerpt from publisher Arabic edition",
+        "source_url": "https://documents1.worldbank.org/curated/en/099605208272415635/pdf/IDU1238311ae1eae41426918dc5170a628fd0af2.pdf",
+        "publisher_record": "https://openknowledge.worldbank.org/entities/publication/582c44fd-db27-57b9-bc1c-60270b43bc02",
+        "source_sha256": "1670c3da6f184f7f708ea3fd1f259d19768925d93d5654d22cd0ba99c5a84477",
+        "source_pdf_pages": [
+          19,
+          20
+        ],
+        "third_party_page_review": "Selected executive-summary pages are prose-only; no separately credited photos, figures, or tables appear on the selected pages.",
+        "attribution": "كورسي، آنا وهاريس سيلود. 2023. أهمية الأراضي. البنك الدولي. doi:10.1596/978-1-4648-1889-9. CC BY 3.0 IGO."
+      },
+      "transformation": "Extract source PDF pages 19 and 20 into a two-page excerpt.",
+      "page_languages": [
+        "arabic",
+        "arabic"
+      ],
+      "page_modalities": [
+        "native",
+        "native"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "core-arabic-scanned",
+      "file": "output/pdf/stage-05-corpus/core-arabic-scanned.pdf",
+      "sha256": "aee8e8dbb57a73ffaf0ab274015b5b13d3cee9573bc3d3ef515c1e0c8078ab46",
+      "bytes": 688920,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        }
+      ],
+      "family": "arabic",
+      "variant": "scanned",
+      "correlation_group": "arabic",
+      "rights": {
+        "basis": "World Bank CC BY 3.0 IGO, text-only excerpt from publisher Arabic edition",
+        "source_url": "https://documents1.worldbank.org/curated/en/099605208272415635/pdf/IDU1238311ae1eae41426918dc5170a628fd0af2.pdf",
+        "publisher_record": "https://openknowledge.worldbank.org/entities/publication/582c44fd-db27-57b9-bc1c-60270b43bc02",
+        "source_sha256": "1670c3da6f184f7f708ea3fd1f259d19768925d93d5654d22cd0ba99c5a84477",
+        "source_pdf_pages": [
+          19,
+          20
+        ],
+        "third_party_page_review": "Selected executive-summary pages are prose-only; no separately credited photos, figures, or tables appear on the selected pages.",
+        "attribution": "كورسي، آنا وهاريس سيلود. 2023. أهمية الأراضي. البنك الدولي. doi:10.1596/978-1-4648-1889-9. CC BY 3.0 IGO."
+      },
+      "transformation": "Rasterize the matched excerpt at 180 dpi; every page becomes image-only.",
+      "page_languages": [
+        "arabic",
+        "arabic"
+      ],
+      "page_modalities": [
+        "scanned",
+        "scanned"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "core-bilingual-mixed",
+      "file": "output/pdf/stage-05-corpus/core-bilingual-mixed.pdf",
+      "sha256": "b098f95ce85a3ca6099945fd935b1fc6463468c39455088f7199b009887ed943",
+      "bytes": 65159,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            594.95996,
+            841.91998
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            594.95996,
+            841.91998
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            594.95996,
+            841.91998
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            594.95996,
+            841.91998
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            594.95996,
+            841.91998
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            594.95996,
+            841.91998
+          ]
+        }
+      ],
+      "family": "bilingual",
+      "variant": "mixed",
+      "correlation_group": "bilingual",
+      "rights": {
+        "basis": "Purpose-written fictional fixture created for this project; no external document, private data, or third-party visual component reused.",
+        "source_url": null,
+        "source_sha256": null,
+        "source_pdf_pages": null,
+        "third_party_page_review": "No third-party source components."
+      },
+      "transformation": "Author same content as native, with the page-1 table replaced by an image-only table region.",
+      "page_languages": [
+        "Arabic and English on same page",
+        "Arabic and English on same page"
+      ],
+      "page_modalities": [
+        "native plus scanned table region",
+        "native"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "core-bilingual-native",
+      "file": "output/pdf/stage-05-corpus/core-bilingual-native.pdf",
+      "sha256": "7b4635e4870384fb783d7fe3e68d092d118e8cf6a0fbd5fff706bb4a7ba01959",
+      "bytes": 49953,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            594.95996,
+            841.91998
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            594.95996,
+            841.91998
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            594.95996,
+            841.91998
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            594.95996,
+            841.91998
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            594.95996,
+            841.91998
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            594.95996,
+            841.91998
+          ]
+        }
+      ],
+      "family": "bilingual",
+      "variant": "native",
+      "correlation_group": "bilingual",
+      "rights": {
+        "basis": "Purpose-written fictional fixture created for this project; no external document, private data, or third-party visual component reused.",
+        "source_url": null,
+        "source_sha256": null,
+        "source_pdf_pages": null,
+        "third_party_page_review": "No third-party source components."
+      },
+      "transformation": "Author HTML printed by Chromium with Unicode Arabic/English text and native table.",
+      "page_languages": [
+        "Arabic and English on same page",
+        "Arabic and English on same page"
+      ],
+      "page_modalities": [
+        "native",
+        "native"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "core-bilingual-scanned",
+      "file": "output/pdf/stage-05-corpus/core-bilingual-scanned.pdf",
+      "sha256": "0864e2ebbca784645bbe2b4d152f07237a668cd4b613149dedbc08de5e9f4bb5",
+      "bytes": 265852,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            595.2,
+            842.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            595.2,
+            842.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            595.2,
+            842.0
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            595.2,
+            842.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            595.2,
+            842.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            595.2,
+            842.0
+          ]
+        }
+      ],
+      "family": "bilingual",
+      "variant": "scanned",
+      "correlation_group": "bilingual",
+      "rights": {
+        "basis": "Purpose-written fictional fixture created for this project; no external document, private data, or third-party visual component reused.",
+        "source_url": null,
+        "source_sha256": null,
+        "source_pdf_pages": null,
+        "third_party_page_review": "No third-party source components."
+      },
+      "transformation": "Rasterize the matched native PDF at 180 dpi; every page becomes image-only.",
+      "page_languages": [
+        "Arabic and English on same page",
+        "Arabic and English on same page"
+      ],
+      "page_modalities": [
+        "scanned",
+        "scanned"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "core-english-mixed",
+      "file": "output/pdf/stage-05-corpus/core-english-mixed.pdf",
+      "sha256": "cf578e047036414d000312686866c6f2a3a9338dd38b1ece620ddf259f3355ab",
+      "bytes": 853478,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        }
+      ],
+      "family": "english",
+      "variant": "mixed",
+      "correlation_group": "english",
+      "rights": {
+        "basis": "World Bank CC BY 3.0 IGO, text-only excerpt from publisher report",
+        "source_url": "https://documents1.worldbank.org/curated/en/099559508272442561/pdf/IDU13ee887eb13670145571be091c0095f45be26.pdf",
+        "publisher_record": "https://openknowledge.worldbank.org/entities/publication/582c44fd-db27-57b9-bc1c-60270b43bc02",
+        "source_sha256": "c272a3cb8923ea196d9a58a265d327e8050b76b7673325ce3b13604c5b16e127",
+        "source_pdf_pages": [
+          19,
+          20
+        ],
+        "third_party_page_review": "Selected executive-summary pages are prose-only; no separately credited photos, figures, or tables appear on the selected pages.",
+        "attribution": "Corsi, Anna, and Harris Selod. 2023. Land Matters. World Bank. doi:10.1596/978-1-4648-1661-1. CC BY 3.0 IGO."
+      },
+      "transformation": "Keep excerpt page 1 native and substitute rasterized page 2.",
+      "page_languages": [
+        "english",
+        "english"
+      ],
+      "page_modalities": [
+        "native",
+        "scanned"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "core-english-native",
+      "file": "output/pdf/stage-05-corpus/core-english-native.pdf",
+      "sha256": "ba9c400d75f6b77a1cc395b0484a4c5b98cb675d78abb1f3de50429b865e3bd4",
+      "bytes": 425021,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        }
+      ],
+      "family": "english",
+      "variant": "native",
+      "correlation_group": "english",
+      "rights": {
+        "basis": "World Bank CC BY 3.0 IGO, text-only excerpt from publisher report",
+        "source_url": "https://documents1.worldbank.org/curated/en/099559508272442561/pdf/IDU13ee887eb13670145571be091c0095f45be26.pdf",
+        "publisher_record": "https://openknowledge.worldbank.org/entities/publication/582c44fd-db27-57b9-bc1c-60270b43bc02",
+        "source_sha256": "c272a3cb8923ea196d9a58a265d327e8050b76b7673325ce3b13604c5b16e127",
+        "source_pdf_pages": [
+          19,
+          20
+        ],
+        "third_party_page_review": "Selected executive-summary pages are prose-only; no separately credited photos, figures, or tables appear on the selected pages.",
+        "attribution": "Corsi, Anna, and Harris Selod. 2023. Land Matters. World Bank. doi:10.1596/978-1-4648-1661-1. CC BY 3.0 IGO."
+      },
+      "transformation": "Extract source PDF pages 19 and 20 into a two-page excerpt.",
+      "page_languages": [
+        "english",
+        "english"
+      ],
+      "page_modalities": [
+        "native",
+        "native"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "core-english-scanned",
+      "file": "output/pdf/stage-05-corpus/core-english-scanned.pdf",
+      "sha256": "10faf10e348552be46c18b9ae81ad256659eb920c9d8779aec3a2ec5c1b7e5ed",
+      "bytes": 824569,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            576.0,
+            756.0
+          ]
+        }
+      ],
+      "family": "english",
+      "variant": "scanned",
+      "correlation_group": "english",
+      "rights": {
+        "basis": "World Bank CC BY 3.0 IGO, text-only excerpt from publisher report",
+        "source_url": "https://documents1.worldbank.org/curated/en/099559508272442561/pdf/IDU13ee887eb13670145571be091c0095f45be26.pdf",
+        "publisher_record": "https://openknowledge.worldbank.org/entities/publication/582c44fd-db27-57b9-bc1c-60270b43bc02",
+        "source_sha256": "c272a3cb8923ea196d9a58a265d327e8050b76b7673325ce3b13604c5b16e127",
+        "source_pdf_pages": [
+          19,
+          20
+        ],
+        "third_party_page_review": "Selected executive-summary pages are prose-only; no separately credited photos, figures, or tables appear on the selected pages.",
+        "attribution": "Corsi, Anna, and Harris Selod. 2023. Land Matters. World Bank. doi:10.1596/978-1-4648-1661-1. CC BY 3.0 IGO."
+      },
+      "transformation": "Rasterize the matched excerpt at 180 dpi; every page becomes image-only.",
+      "page_languages": [
+        "english",
+        "english"
+      ],
+      "page_modalities": [
+        "scanned",
+        "scanned"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "stress-conflicting-figures",
+      "file": "output/pdf/stage-05-corpus/stress-conflicting-figures.pdf",
+      "sha256": "5f20977aec9da416fcb7cffab51da2d5540634386c8ce02117452dc0ca0cdde7",
+      "bytes": 43861,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            612.0,
+            792.0
+          ]
+        }
+      ],
+      "family": "stress",
+      "variant": "targeted",
+      "correlation_group": "stress-conflicting-figures",
+      "rights": {
+        "basis": "Purpose-written fictional fixture created for this project; no external document, private data, or third-party visual component reused.",
+        "source_url": null,
+        "source_sha256": null,
+        "source_pdf_pages": null,
+        "third_party_page_review": "No third-party source components."
+      },
+      "transformation": "Author draft and superseding audited figures on two native pages.",
+      "page_languages": [
+        "English",
+        "English"
+      ],
+      "page_modalities": [
+        "native",
+        "native"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "stress-crop",
+      "file": "output/pdf/stage-05-corpus/stress-crop.pdf",
+      "sha256": "37874bd255ac3a10012d5b18ec502cfb8bb399710fee33a8497d90395cff1648",
+      "bytes": 42898,
+      "page_count": 1,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "crop_box_pt": [
+            72.0,
+            72.0,
+            540.0,
+            720.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            468.0,
+            648.0
+          ]
+        }
+      ],
+      "family": "stress",
+      "variant": "targeted",
+      "correlation_group": "stress-crop",
+      "rights": {
+        "basis": "Purpose-written fictional fixture created for this project; no external document, private data, or third-party visual component reused.",
+        "source_url": null,
+        "source_sha256": null,
+        "source_pdf_pages": null,
+        "third_party_page_review": "No third-party source components."
+      },
+      "transformation": "Set a nondefault CropBox that hides a conflicting decoy outside the visible page.",
+      "page_languages": [
+        "English"
+      ],
+      "page_modalities": [
+        "native"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "stress-degraded-ocr",
+      "file": "output/pdf/stage-05-corpus/stress-degraded-ocr.pdf",
+      "sha256": "fa45e7f0f80de4f877257acd3e35809b8b457f64d515014d0c928f5ed246e347",
+      "bytes": 14153,
+      "page_count": 1,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            612.0,
+            792.0
+          ]
+        }
+      ],
+      "family": "stress",
+      "variant": "targeted",
+      "correlation_group": "stress-degraded-ocr",
+      "rights": {
+        "basis": "Purpose-written fictional fixture created for this project; no external document, private data, or third-party visual component reused.",
+        "source_url": null,
+        "source_sha256": null,
+        "source_pdf_pages": null,
+        "third_party_page_review": "No third-party source components."
+      },
+      "transformation": "Rasterize a low-contrast 8-point native note at 90 dpi, blur, rescale, and fade.",
+      "page_languages": [
+        "English"
+      ],
+      "page_modalities": [
+        "scanned"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "stress-reading-order",
+      "file": "output/pdf/stage-05-corpus/stress-reading-order.pdf",
+      "sha256": "8bb5c913bc2e4e009f76b7c91589196f22f1f45155005a8f3bb3549d08918836",
+      "bytes": 43562,
+      "page_count": 1,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            612.0,
+            792.0
+          ]
+        }
+      ],
+      "family": "stress",
+      "variant": "targeted",
+      "correlation_group": "stress-reading-order",
+      "rights": {
+        "basis": "Purpose-written fictional fixture created for this project; no external document, private data, or third-party visual component reused.",
+        "source_url": null,
+        "source_sha256": null,
+        "source_pdf_pages": null,
+        "third_party_page_review": "No third-party source components."
+      },
+      "transformation": "Author a two-column native page with a separate sidebar.",
+      "page_languages": [
+        "English"
+      ],
+      "page_modalities": [
+        "native"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "stress-rotation",
+      "file": "output/pdf/stage-05-corpus/stress-rotation.pdf",
+      "sha256": "38d1de4180c1f074eec798e3a3cf92a17966f6038808b305dbc2c8d7d1e3d7c1",
+      "bytes": 42827,
+      "page_count": 1,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 90,
+          "visible_size_pt": [
+            792.0,
+            612.0
+          ]
+        }
+      ],
+      "family": "stress",
+      "variant": "targeted",
+      "correlation_group": "stress-rotation",
+      "rights": {
+        "basis": "Purpose-written fictional fixture created for this project; no external document, private data, or third-party visual component reused.",
+        "source_url": null,
+        "source_sha256": null,
+        "source_pdf_pages": null,
+        "third_party_page_review": "No third-party source components."
+      },
+      "transformation": "Rotate a native one-page fictional note by 90 degrees.",
+      "page_languages": [
+        "English"
+      ],
+      "page_modalities": [
+        "native"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    },
+    {
+      "id": "stress-table-continuation",
+      "file": "output/pdf/stage-05-corpus/stress-table-continuation.pdf",
+      "sha256": "045061756f580e17d418457828d3f5c934017726d81713daef34df54eb3e91bb",
+      "bytes": 44355,
+      "page_count": 2,
+      "page_geometry": [
+        {
+          "page": 1,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            612.0,
+            792.0
+          ]
+        },
+        {
+          "page": 2,
+          "media_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "crop_box_pt": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "rotation_degrees": 0,
+          "visible_size_pt": [
+            612.0,
+            792.0
+          ]
+        }
+      ],
+      "family": "stress",
+      "variant": "targeted",
+      "correlation_group": "stress-table-continuation",
+      "rights": {
+        "basis": "Purpose-written fictional fixture created for this project; no external document, private data, or third-party visual component reused.",
+        "source_url": null,
+        "source_sha256": null,
+        "source_pdf_pages": null,
+        "third_party_page_review": "No third-party source components."
+      },
+      "transformation": "Author a two-page table with repeated header and continuation label.",
+      "page_languages": [
+        "English",
+        "English"
+      ],
+      "page_modalities": [
+        "native",
+        "native"
+      ],
+      "provider_use": "Public/synthetic fixture only; external use still requires the provider controls and disclosure in ADR 0002.",
+      "gold_review_status": "human_verified"
+    }
+  ]
+}
